@@ -215,7 +215,7 @@
   "code": "NL"
  },
  "82.38.31.2:8080:ss:tcp:none:": {
-  "fails": 0,
+  "fails": 1,
   "country": "The Netherlands",
   "code": "NL"
  },
@@ -280,7 +280,7 @@
   "code": "ES"
  },
  "2.57.242.77:13868:vless:tcp:reality:": {
-  "fails": 0,
+  "fails": 1,
   "country": "Finland",
   "code": "FI"
  },
@@ -335,7 +335,7 @@
   "code": "ZA"
  },
  "66.175.217.170:443:vless:tcp:reality:": {
-  "fails": 1,
+  "fails": 0,
   "country": "United States",
   "code": "US"
  },
@@ -350,7 +350,7 @@
   "code": "CN"
  },
  "52.74.176.20:443:vless:ws:none:/": {
-  "fails": 0,
+  "fails": 1,
   "country": "Singapore",
   "code": "SG"
  },
@@ -400,22 +400,17 @@
   "code": "RU"
  },
  "193.188.23.170:2200:vless:ws:none:/v1": {
-  "fails": 2,
-  "country": "Russia",
-  "code": "RU"
- },
- "104.171.137.148:2200:vless:ws:none:/v1": {
-  "fails": 2,
+  "fails": 0,
   "country": "Russia",
   "code": "RU"
  },
  "168.138.43.75:80:vmess:ws:none:/cctv13.m3u8": {
-  "fails": 1,
+  "fails": 0,
   "country": "Japan",
   "code": "JP"
  },
  "104.171.134.235:4100:vless:ws:none:/v1": {
-  "fails": 0,
+  "fails": 1,
   "country": "Russia",
   "code": "RU"
  },
@@ -450,22 +445,22 @@
   "code": "RU"
  },
  "201.24.120.68:4100:vless:ws:none:/v1": {
-  "fails": 0,
+  "fails": 1,
   "country": "Russia",
   "code": "RU"
  },
  "104.171.132.185:4100:vless:ws:none:/v1": {
-  "fails": 2,
+  "fails": 0,
   "country": "Russia",
   "code": "RU"
  },
  "104.171.132.102:2200:vless:ws:none:/v1": {
-  "fails": 2,
+  "fails": 0,
   "country": "Russia",
   "code": "RU"
  },
  "104.171.136.112:2200:vless:ws:none:/v1": {
-  "fails": 1,
+  "fails": 2,
   "country": "Russia",
   "code": "RU"
  },
@@ -485,7 +480,7 @@
   "code": "US"
  },
  "109.73.193.169:4100:vless:ws:none:/v1": {
-  "fails": 0,
+  "fails": 1,
   "country": "Russia",
   "code": "RU"
  },
@@ -495,7 +490,7 @@
   "code": "RU"
  },
  "31.76.80.69:2053:vless:grpc:reality:": {
-  "fails": 0,
+  "fails": 1,
   "country": "Finland",
   "code": "FI"
  },
@@ -520,7 +515,7 @@
   "code": "FR"
  },
  "104.171.132.128:4100:vless:ws:none:/v1": {
-  "fails": 1,
+  "fails": 2,
   "country": "Russia",
   "code": "RU"
  },
@@ -530,7 +525,7 @@
   "code": "RU"
  },
  "134.0.116.208:9878:vless:grpc:reality:": {
-  "fails": 2,
+  "fails": 0,
   "country": "Russia",
   "code": "RU"
  },
@@ -540,7 +535,7 @@
   "code": "RU"
  },
  "45.151.30.127:9873:vless:grpc:reality:": {
-  "fails": 2,
+  "fails": 0,
   "country": "Russia",
   "code": "RU"
  },
@@ -554,13 +549,8 @@
   "country": "Russia",
   "code": "RU"
  },
- "77.222.37.89:4100:vless:ws:none:/v1": {
-  "fails": 2,
-  "country": "Russia",
-  "code": "RU"
- },
  "104.171.137.141:4100:vless:ws:none:/v1": {
-  "fails": 2,
+  "fails": 0,
   "country": "Russia",
   "code": "RU"
  },
@@ -633,11 +623,6 @@
   "fails": 0,
   "country": "Germany",
   "code": "DE"
- },
- "79.108.166.178:13443:vless:tcp:reality:": {
-  "fails": 0,
-  "country": "Romania",
-  "code": "RO"
  },
  "179.198.50.131:8443:vless:xhttp:reality:/": {
   "fails": 0,
@@ -819,11 +804,6 @@
   "country": "The Netherlands",
   "code": "NL"
  },
- "176.100.42.200:443:vless:tcp:reality:": {
-  "fails": 0,
-  "country": "Kazakhstan",
-  "code": "KZ"
- },
  "149.130.190.130:62145:vless:tcp:none:/": {
   "fails": 2,
   "country": "Colombia",
@@ -904,13 +884,8 @@
   "country": "Russia",
   "code": "RU"
  },
- "62.233.43.86:9898:vless:grpc:reality:": {
-  "fails": 0,
-  "country": "Russia",
-  "code": "RU"
- },
  "104.171.136.172:4100:vless:ws:none:/v1": {
-  "fails": 2,
+  "fails": 0,
   "country": "Russia",
   "code": "RU"
  },
@@ -920,7 +895,7 @@
   "code": "RU"
  },
  "104.171.135.186:4100:vless:ws:none:/v1": {
-  "fails": 0,
+  "fails": 1,
   "country": "Russia",
   "code": "RU"
  },
@@ -930,7 +905,7 @@
   "code": "RU"
  },
  "168.222.143.50:2200:vless:ws:none:/v1": {
-  "fails": 2,
+  "fails": 0,
   "country": "Russia",
   "code": "RU"
  },
@@ -990,7 +965,7 @@
   "code": "DE"
  },
  "168.222.202.15:4100:vless:ws:none:/v1": {
-  "fails": 0,
+  "fails": 1,
   "country": "Russia",
   "code": "RU"
  },
@@ -1038,5 +1013,255 @@
   "fails": 2,
   "country": "Hong Kong",
   "code": "HK"
+ },
+ "79.174.83.75:443:vless:grpc:reality:": {
+  "fails": 0,
+  "country": "Russia",
+  "code": "RU"
+ },
+ "194.26.229.211:2200:vless:ws:none:/v1": {
+  "fails": 0,
+  "country": "Russia",
+  "code": "RU"
+ },
+ "104.171.134.235:2200:vless:ws:none:/v1": {
+  "fails": 0,
+  "country": "Russia",
+  "code": "RU"
+ },
+ "46.8.221.218:443:vless:grpc:reality:": {
+  "fails": 0,
+  "country": "Russia",
+  "code": "RU"
+ },
+ "176.108.252.108:9880:vless:grpc:reality:": {
+  "fails": 0,
+  "country": "Russia",
+  "code": "RU"
+ },
+ "176.109.108.196:9892:vless:grpc:reality:": {
+  "fails": 0,
+  "country": "Russia",
+  "code": "RU"
+ },
+ "45.151.30.127:9882:vless:grpc:reality:": {
+  "fails": 0,
+  "country": "Russia",
+  "code": "RU"
+ },
+ "185.141.227.153:9001:vless:grpc:reality:": {
+  "fails": 0,
+  "country": "The Netherlands",
+  "code": "NL"
+ },
+ "185.141.227.153:9002:vless:grpc:reality:": {
+  "fails": 0,
+  "country": "The Netherlands",
+  "code": "NL"
+ },
+ "31.76.91.138:2087:vless:grpc:reality:": {
+  "fails": 0,
+  "country": "Japan",
+  "code": "JP"
+ },
+ "72.56.7.195:2200:vless:ws:none:/v1": {
+  "fails": 0,
+  "country": "Russia",
+  "code": "RU"
+ },
+ "195.123.226.21:443:vless:ws:false:/vless": {
+  "fails": 0,
+  "country": "Bulgaria",
+  "code": "BG"
+ },
+ "114.29.238.251:13443:vless:tcp:reality:": {
+  "fails": 0,
+  "country": "Hong Kong",
+  "code": "HK"
+ },
+ "153.76.248.251:13443:vless:tcp:reality:": {
+  "fails": 0,
+  "country": "Japan",
+  "code": "JP"
+ },
+ "176.12.73.145:443:vless:tcp:reality:/": {
+  "fails": 0,
+  "country": "Kazakhstan",
+  "code": "KZ"
+ },
+ "176.12.73.145:443:vless:tcp:reality:": {
+  "fails": 0,
+  "country": "Kazakhstan",
+  "code": "KZ"
+ },
+ "185.159.73.247:443:vless:tcp:reality:/": {
+  "fails": 0,
+  "country": "Israel",
+  "code": "IL"
+ },
+ "185.159.73.247:443:vless:tcp:reality:": {
+  "fails": 0,
+  "country": "Israel",
+  "code": "IL"
+ },
+ "217.60.23.231:443:vless:tcp:reality:/": {
+  "fails": 0,
+  "country": "The Netherlands",
+  "code": "NL"
+ },
+ "217.60.23.231:443:vless:raw:reality:": {
+  "fails": 0,
+  "country": "The Netherlands",
+  "code": "NL"
+ },
+ "217.60.68.196:13443:vless:tcp:reality:": {
+  "fails": 0,
+  "country": "Germany",
+  "code": "DE"
+ },
+ "217.60.68.196:443:vless:tcp:reality:": {
+  "fails": 0,
+  "country": "Germany",
+  "code": "DE"
+ },
+ "5.253.42.79:13443:vless:tcp:reality:": {
+  "fails": 0,
+  "country": "India",
+  "code": "IN"
+ },
+ "5.253.42.79:443:vless:tcp:reality:": {
+  "fails": 0,
+  "country": "India",
+  "code": "IN"
+ },
+ "74.113.232.135:443:vless:tcp:reality:": {
+  "fails": 0,
+  "country": "Australia",
+  "code": "AU"
+ },
+ "79.108.166.178:13443:vless:tcp:reality:/": {
+  "fails": 0,
+  "country": "Romania",
+  "code": "RO"
+ },
+ "79.108.166.178:443:vless:tcp:reality:": {
+  "fails": 0,
+  "country": "Romania",
+  "code": "RO"
+ },
+ "94.183.157.121:13443:vless:tcp:reality:": {
+  "fails": 0,
+  "country": "Poland",
+  "code": "PL"
+ },
+ "13.143.67.230:443:vless:ws:none:": {
+  "fails": 0,
+  "country": "Germany",
+  "code": "DE"
+ },
+ "87.76.179.75:443:vless:tcp:reality:": {
+  "fails": 0,
+  "country": "Spain",
+  "code": "ES"
+ },
+ "37.252.20.41:204:vless:tcp:none:": {
+  "fails": 0,
+  "country": "Russia",
+  "code": "RU"
+ },
+ "195.123.233.230:443:vless:ws:none:/vless": {
+  "fails": 0,
+  "country": "United States",
+  "code": "US"
+ },
+ "195.133.25.181:4100:vless:ws:none:/v1": {
+  "fails": 0,
+  "country": "Russia",
+  "code": "RU"
+ },
+ "151.242.17.99:8443:vless:grpc:reality:": {
+  "fails": 0,
+  "country": "Germany",
+  "code": "DE"
+ },
+ "95.163.232.98:443:vless:grpc:reality:": {
+  "fails": 0,
+  "country": "Russia",
+  "code": "RU"
+ },
+ "18.239.134.69:80:vless:ws:none:/": {
+  "fails": 0,
+  "country": "Thailand",
+  "code": "TH"
+ },
+ "18.239.134.69:80:vless:ws:false:/": {
+  "fails": 0,
+  "country": "Thailand",
+  "code": "TH"
+ },
+ "89.19.223.155:8443:vless:tcp:none:": {
+  "fails": 0,
+  "country": "Russia",
+  "code": "RU"
+ },
+ "176.108.245.57:9871:vless:grpc:reality:": {
+  "fails": 0,
+  "country": "Russia",
+  "code": "RU"
+ },
+ "89.232.177.107:9888:vless:grpc:reality:": {
+  "fails": 0,
+  "country": "Russia",
+  "code": "RU"
+ },
+ "38.107.234.57:80:vmess:ws:none:/vmess/": {
+  "fails": 0,
+  "country": "Kazakhstan",
+  "code": "KZ"
+ },
+ "144.31.131.241:8443:vless:tcp:reality:/": {
+  "fails": 0,
+  "country": "Moldova",
+  "code": "MD"
+ },
+ "168.222.141.146:2200:vless:ws:none:/v1": {
+  "fails": 0,
+  "country": "Russia",
+  "code": "RU"
+ },
+ "31.177.83.201:4100:vless:ws:none:/v1": {
+  "fails": 0,
+  "country": "Russia",
+  "code": "RU"
+ },
+ "5.129.241.247:4100:vless:ws:none:/v1": {
+  "fails": 0,
+  "country": "Russia",
+  "code": "RU"
+ },
+ "62.133.63.202:13868:vless:tcp:reality:": {
+  "fails": 0,
+  "country": "Türkiye",
+  "code": "TR"
+ },
+ "61.245.11.60:80:vmess:ws:none:/vmess/": {
+  "fails": 0,
+  "country": "Philippines",
+  "code": "PH"
+ },
+ "194.26.229.211:4100:vless:ws:none:/v1": {
+  "fails": 0,
+  "country": "Russia",
+  "code": "RU"
+ },
+ "77.95.201.235:2200:vless:ws:none:/v1": {
+  "fails": 0,
+  "country": "Russia",
+  "code": "RU"
+ },
+ "31.76.64.77:7443:vless:grpc:reality:": {
+  "fails": 0,
+  "country": "Germany",
+  "code": "DE"
  }
 }
