@@ -1,33 +1,28 @@
 {
  "108.181.121.226:8388:ss:tcp:none:": {
-  "fails": 2,
+  "fails": 0,
   "country": "Spain",
   "code": "ES"
  },
  "82.38.31.193:8080:ss:tcp:none:": {
-  "fails": 2,
+  "fails": 0,
   "country": "The Netherlands",
   "code": "NL"
  },
  "82.38.31.192:8080:ss:tcp:none:": {
-  "fails": 2,
+  "fails": 0,
   "country": "The Netherlands",
   "code": "NL"
  },
  "140.174.184.5:8388:ss:tcp:none:": {
-  "fails": 2,
+  "fails": 0,
   "country": "Spain",
   "code": "ES"
  },
  "185.226.172.8:8008:ss:tcp:none:": {
-  "fails": 2,
+  "fails": 0,
   "country": "Germany",
   "code": "DE"
- },
- "179.198.50.131:8443:vless:xhttp:reality:": {
-  "fails": 2,
-  "country": "United States",
-  "code": "US"
  },
  "193.233.244.15:8443:vless:grpc:reality:": {
   "fails": 2,
@@ -84,88 +79,117 @@
   "country": "United States",
   "code": "US"
  },
- "132.145.80.230:80:vmess:ws:none:/cctv13.m3u8": {
-  "fails": 2,
-  "country": "South Korea",
-  "code": "KR"
- },
  "82.38.31.164:443:ss:tcp:none:": {
-  "fails": 2,
+  "fails": 0,
   "country": "The Netherlands",
   "code": "NL"
  },
  "152.69.195.67:47878:vless:tcp:none:": {
-  "fails": 2,
+  "fails": 0,
   "country": "Japan",
   "code": "JP"
  },
  "15.204.246.132:7307:ss:tcp:none:": {
-  "fails": 2,
+  "fails": 0,
   "country": "United States",
   "code": "US"
  },
- "94.183.209.33:8443:vless:tcp:reality:": {
-  "fails": 2,
-  "country": "Poland",
-  "code": "PL"
- },
- "89.40.70.124:443:vless:tcp:reality:": {
-  "fails": 2,
-  "country": "The Netherlands",
-  "code": "NL"
- },
- "82.38.31.15:443:ss:tcp:none:": {
-  "fails": 2,
-  "country": "The Netherlands",
-  "code": "NL"
- },
- "143.246.223.73:443:vless:tcp:reality:": {
-  "fails": 2,
-  "country": "Moldova",
-  "code": "MD"
- },
  "82.38.31.149:8080:ss:tcp:none:": {
-  "fails": 2,
+  "fails": 0,
   "country": "The Netherlands",
   "code": "NL"
  },
  "82.38.31.2:8080:ss:tcp:none:": {
-  "fails": 2,
+  "fails": 0,
   "country": "The Netherlands",
   "code": "NL"
  },
  "31.76.64.248:443:vless:tcp:reality:": {
-  "fails": 2,
+  "fails": 0,
   "country": "Germany",
   "code": "DE"
  },
- "94.183.239.49:2053:vless:tcp:reality:": {
-  "fails": 2,
-  "country": "Estonia",
-  "code": "EE"
- },
- "144.31.243.2:16015:ss:tcp:none:": {
-  "fails": 2,
-  "country": "Lithuania",
-  "code": "LT"
- },
- "31.76.82.131:34260:ss:tcp:none:": {
-  "fails": 2,
-  "country": "Poland",
-  "code": "PL"
- },
- "82.38.31.42:443:ss:tcp:none:": {
-  "fails": 2,
-  "country": "The Netherlands",
-  "code": "NL"
- },
  "82.38.31.7:8080:ss:tcp:none:": {
-  "fails": 2,
+  "fails": 0,
   "country": "The Netherlands",
   "code": "NL"
  },
- "176.96.138.122:443:vless:tcp:reality:": {
-  "fails": 2,
+ "37.139.42.179:443:vless:ws:tls:/e8ws": {
+  "fails": 0,
+  "country": "Russia",
+  "code": "RU"
+ },
+ "192.142.8.48:443:vless:tcp:reality:": {
+  "fails": 0,
+  "country": "The Netherlands",
+  "code": "NL"
+ },
+ "94.228.213.105:443:vless:tcp:reality:": {
+  "fails": 0,
+  "country": "The Netherlands",
+  "code": "NL"
+ },
+ "147.45.213.54:443:vless:tcp:reality:": {
+  "fails": 0,
+  "country": "Russia",
+  "code": "RU"
+ },
+ "94.185.83.38:443:vless:tcp:reality:": {
+  "fails": 0,
+  "country": "Sweden",
+  "code": "SE"
+ },
+ "192.142.12.231:443:vless:tcp:reality:": {
+  "fails": 0,
+  "country": "Germany",
+  "code": "DE"
+ },
+ "94.228.218.73:443:vless:tcp:reality:": {
+  "fails": 0,
+  "country": "The Netherlands",
+  "code": "NL"
+ },
+ "195.252.179.56:443:vless:tcp:reality:": {
+  "fails": 0,
+  "country": "Germany",
+  "code": "DE"
+ },
+ "89.18.60.112:443:vless:tcp:reality:": {
+  "fails": 0,
+  "country": "United States",
+  "code": "US"
+ },
+ "82.117.87.199:4100:vless:ws:none:/v1": {
+  "fails": 2
+ },
+ "104.171.137.148:2200:vless:ws:none:/v1": {
+  "fails": 2
+ },
+ "194.26.229.207:2200:vless:ws:none:/v1": {
+  "fails": 2
+ },
+ "77.222.46.162:2200:vless:ws:none:/v1": {
+  "fails": 2
+ },
+ "83.217.192.58:2200:vless:ws:none:/v1": {
+  "fails": 2
+ },
+ "168.222.140.236:4100:vless:ws:none:/v1": {
+  "fails": 2
+ },
+ "70.39.197.13:46197:vless:tcp:reality:": {
+  "fails": 2
+ },
+ "77.222.35.10:2200:vless:ws:none:/v1": {
+  "fails": 2
+ },
+ "192.142.8.1:443:vless:tcp:reality:": {
+  "fails": 0,
+  "country": "The Netherlands",
+  "code": "NL"
+ },
+ "192.142.12.198:443:vless:tcp:reality:": {
+  "fails": 0,
   "country": "Germany",
   "code": "DE"
  }
