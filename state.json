@@ -85,7 +85,7 @@
   "code": "NL"
  },
  "152.69.195.67:47878:vless:tcp:none:": {
-  "fails": 1,
+  "fails": 0,
   "country": "Japan",
   "code": "JP"
  },
@@ -115,7 +115,7 @@
   "code": "NL"
  },
  "37.139.42.179:443:vless:ws:tls:/e8ws": {
-  "fails": 0,
+  "fails": 1,
   "country": "Russia",
   "code": "RU"
  },
@@ -125,7 +125,7 @@
   "code": "NL"
  },
  "94.228.213.105:443:vless:tcp:reality:": {
-  "fails": 0,
+  "fails": 1,
   "country": "The Netherlands",
   "code": "NL"
  },
@@ -180,6 +180,26 @@
   "code": "DE"
  },
  "89.18.60.1:443:vless:tcp:reality:": {
+  "fails": 0,
+  "country": "United States",
+  "code": "US"
+ },
+ "192.142.12.222:443:vless:tcp:reality:": {
+  "fails": 0,
+  "country": "Germany",
+  "code": "DE"
+ },
+ "195.252.179.2:443:vless:tcp:reality:": {
+  "fails": 0,
+  "country": "Germany",
+  "code": "DE"
+ },
+ "185.253.116.213:443:vless:tcp:reality:": {
+  "fails": 0,
+  "country": "United Arab Emirates",
+  "code": "AE"
+ },
+ "89.18.60.45:443:vless:tcp:reality:": {
   "fails": 0,
   "country": "United States",
   "code": "US"
