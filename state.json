@@ -20,7 +20,7 @@
   "code": "ES"
  },
  "185.226.172.8:8008:ss:tcp:none:": {
-  "fails": 0,
+  "fails": 1,
   "country": "Germany",
   "code": "DE"
  },
@@ -85,7 +85,7 @@
   "code": "NL"
  },
  "15.204.246.132:7307:ss:tcp:none:": {
-  "fails": 0,
+  "fails": 1,
   "country": "United States",
   "code": "US"
  },
@@ -110,7 +110,7 @@
   "code": "NL"
  },
  "37.139.42.179:443:vless:ws:tls:/e8ws": {
-  "fails": 1,
+  "fails": 0,
   "country": "Russia",
   "code": "RU"
  },
@@ -125,7 +125,7 @@
   "code": "NL"
  },
  "147.45.213.54:443:vless:tcp:reality:": {
-  "fails": 0,
+  "fails": 1,
   "country": "Russia",
   "code": "RU"
  },
@@ -190,12 +190,12 @@
   "code": "DE"
  },
  "185.253.116.213:443:vless:tcp:reality:": {
-  "fails": 0,
+  "fails": 1,
   "country": "United Arab Emirates",
   "code": "AE"
  },
  "89.18.60.45:443:vless:tcp:reality:": {
-  "fails": 1,
+  "fails": 0,
   "country": "United States",
   "code": "US"
  },
@@ -220,12 +220,12 @@
   "code": "BR"
  },
  "39.108.113.127:10086:vmess:ws:none:": {
-  "fails": 1,
+  "fails": 2,
   "country": "China",
   "code": "CN"
  },
  "39.108.113.127:10086:vmess:ws:none:/": {
-  "fails": 1,
+  "fails": 2,
   "country": "China",
   "code": "CN"
  },
@@ -240,12 +240,12 @@
   "code": "HK"
  },
  "119.46.51.45:37515:vmess:tcp:none:/": {
-  "fails": 1,
+  "fails": 2,
   "country": "Thailand",
   "code": "TH"
  },
  "186.190.211.67:443:vmess:ws:tls:/linkvws": {
-  "fails": 1,
+  "fails": 0,
   "country": "United Kingdom",
   "code": "GB"
  },
@@ -255,12 +255,12 @@
   "code": "US"
  },
  "104.17.121.71:443:trojan:ws:tls:/assignment": {
-  "fails": 0,
+  "fails": 1,
   "country": "Canada",
   "code": "CA"
  },
  "104.17.121.9:443:trojan:ws:tls:/assignment": {
-  "fails": 0,
+  "fails": 1,
   "country": "Canada",
   "code": "CA"
  },
@@ -275,27 +275,27 @@
   "code": "CA"
  },
  "104.18.32.47:443:trojan:ws:tls:/assignment": {
-  "fails": 0,
+  "fails": 1,
   "country": "Canada",
   "code": "CA"
  },
  "104.18.8.83:443:trojan:ws:tls:/assignment": {
-  "fails": 0,
+  "fails": 1,
   "country": "Canada",
   "code": "CA"
  },
  "104.18.9.83:443:trojan:ws:tls:/assignment": {
-  "fails": 0,
+  "fails": 1,
   "country": "Canada",
   "code": "CA"
  },
  "104.20.6.134:443:trojan:ws:tls:/assignment": {
-  "fails": 0,
+  "fails": 1,
   "country": "Canada",
   "code": "CA"
  },
  "104.21.103.254:443:trojan:ws:tls:/assignment": {
-  "fails": 0,
+  "fails": 1,
   "country": "Canada",
   "code": "CA"
  },
@@ -310,37 +310,37 @@
   "code": "CA"
  },
  "172.67.200.219:443:trojan:ws:tls:/assignment": {
-  "fails": 0,
+  "fails": 1,
   "country": "Canada",
   "code": "CA"
  },
  "172.67.231.254:443:trojan:ws:tls:/assignment": {
-  "fails": 0,
+  "fails": 1,
   "country": "Canada",
   "code": "CA"
  },
  "45.130.125.112:443:trojan:ws:tls:/assignment": {
-  "fails": 0,
+  "fails": 1,
   "country": "Seychelles",
   "code": "SC"
  },
  "45.130.125.190:443:trojan:ws:tls:/assignment": {
-  "fails": 0,
+  "fails": 1,
   "country": "Seychelles",
   "code": "SC"
  },
  "45.130.125.75:443:trojan:ws:tls:/assignment": {
-  "fails": 0,
+  "fails": 1,
   "country": "Seychelles",
   "code": "SC"
  },
  "45.205.0.6:443:trojan:ws:tls:/assignment": {
-  "fails": 0,
+  "fails": 1,
   "country": "United States",
   "code": "US"
  },
  "45.80.111.7:443:trojan:ws:tls:/assignment": {
-  "fails": 0,
+  "fails": 1,
   "country": "Germany",
   "code": "DE"
  },
@@ -350,7 +350,7 @@
   "code": "US"
  },
  "104.18.37.228:443:trojan:ws:tls:/assignment": {
-  "fails": 1,
+  "fails": 2,
   "country": "Canada",
   "code": "CA"
  },
@@ -395,17 +395,17 @@
   "code": "CA"
  },
  "104.17.44.17:443:trojan:ws:tls:/assignment": {
-  "fails": 1,
-  "country": "Canada",
-  "code": "CA"
- },
- "104.18.35.86:443:trojan:ws:tls:/assignment": {
   "fails": 0,
   "country": "Canada",
   "code": "CA"
  },
- "104.18.4.5:443:trojan:ws:tls:/assignment": {
+ "104.18.35.86:443:trojan:ws:tls:/assignment": {
   "fails": 1,
+  "country": "Canada",
+  "code": "CA"
+ },
+ "104.18.4.5:443:trojan:ws:tls:/assignment": {
+  "fails": 0,
   "country": "Canada",
   "code": "CA"
  },
@@ -430,7 +430,7 @@
   "code": "CA"
  },
  "172.64.72.171:443:trojan:ws:tls:/assignment": {
-  "fails": 1,
+  "fails": 2,
   "country": "United States",
   "code": "US"
  },
@@ -445,7 +445,7 @@
   "code": "NL"
  },
  "8.47.69.0:443:trojan:ws:tls:/assignment": {
-  "fails": 1,
+  "fails": 0,
   "country": "United States",
   "code": "US"
  },
@@ -455,7 +455,7 @@
   "code": "CA"
  },
  "77.74.123.108:4443:trojan:tcp:tls:": {
-  "fails": 1,
+  "fails": 2,
   "country": "Germany",
   "code": "DE"
  },
@@ -465,7 +465,7 @@
   "code": "CA"
  },
  "104.18.42.54:443:vmess:ws:tls:/vmess-argo": {
-  "fails": 0,
+  "fails": 1,
   "country": "Canada",
   "code": "CA"
  },
@@ -500,7 +500,7 @@
   "code": "RU"
  },
  "31.76.103.140:443:trojan:tcp:tls:": {
-  "fails": 0,
+  "fails": 1,
   "country": "Finland",
   "code": "FI"
  },
@@ -520,7 +520,7 @@
   "code": "DE"
  },
  "104.19.230.21:443:trojan:ws:tls:/assignment": {
-  "fails": 1
+  "fails": 2
  },
  "104.26.4.60:443:vmess:ws:tls:/b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm": {
   "fails": 0,
@@ -528,6 +528,19 @@
   "code": "CA"
  },
  "162.159.130.234:2083:vmess:ws:tls:/or3": {
+  "fails": 2
+ },
+ "89.18.60.178:443:vless:tcp:reality:": {
+  "fails": 0,
+  "country": "United States",
+  "code": "US"
+ },
+ "185.67.125.90:443:vmess:ws:tls:/linkvws": {
+  "fails": 0,
+  "country": "India",
+  "code": "IN"
+ },
+ "172.67.140.126:2087:trojan:ws:tls:/@BlueKnight_net--@BlueKnight_net--@BlueKnight_net": {
   "fails": 1
  }
 }
