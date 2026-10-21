@@ -110,7 +110,7 @@
   "code": "AU"
  },
  "172.67.70.92:443:vmess:ws:tls:/b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm": {
-  "fails": 0,
+  "fails": 1,
   "country": "Hong Kong",
   "code": "HK",
   "exit_ip": "47.239.203.111",
@@ -150,7 +150,7 @@
   "geo_ts": 1792356737.56213
  },
  "104.18.4.5:443:trojan:ws:tls:/assignment": {
-  "fails": 0,
+  "fails": 1,
   "country": "The Netherlands",
   "code": "NL",
   "exit_ip": "51.158.244.35",
@@ -160,7 +160,7 @@
   "geo_ts": 1792560137.5910213
  },
  "104.19.157.30:443:trojan:ws:tls:/assignment": {
-  "fails": 0,
+  "fails": 1,
   "country": "The Netherlands",
   "code": "NL",
   "exit_ip": "51.158.244.35",
@@ -170,7 +170,7 @@
   "geo_ts": 1792355818.580455
  },
  "104.21.37.56:443:trojan:ws:tls:/assignment": {
-  "fails": 1,
+  "fails": 2,
   "country": "The Netherlands",
   "code": "NL",
   "exit_ip": "51.158.244.35",
@@ -190,7 +190,7 @@
   "geo_ts": 1792355717.82048
  },
  "172.67.139.14:443:trojan:ws:tls:/assignment": {
-  "fails": 1,
+  "fails": 2,
   "country": "The Netherlands",
   "code": "NL",
   "exit_ip": "51.158.244.35",
@@ -245,7 +245,7 @@
   "code": "IN"
  },
  "155.103.71.142:443:trojan:ws:tls:/assignment": {
-  "fails": 0,
+  "fails": 1,
   "country": "The Netherlands",
   "code": "NL",
   "exit_ip": "51.158.240.91",
@@ -263,16 +263,6 @@
   "geo_ip": "162.249.126.228",
   "geo_ok": true,
   "geo_ts": 1792356297.4010885
- },
- "177.1.192.72:443:vless:tcp:reality:": {
-  "fails": 2,
-  "country": "Poland",
-  "code": "PL",
-  "exit_ip": "177.1.192.72",
-  "geo_src": "exit",
-  "geo_ip": "177.1.192.72",
-  "geo_ok": true,
-  "geo_ts": 1792355462.0778346
  },
  "84.247.155.196:80:ss:tcp:none:": {
   "fails": 0,
@@ -305,7 +295,7 @@
   "geo_ts": 1792355414.0015938
  },
  "51.222.141.125:445:ss:tcp:none:": {
-  "fails": 0,
+  "fails": 1,
   "country": "Canada",
   "code": "CA",
   "exit_ip": "51.222.141.125",
@@ -363,11 +353,11 @@
   "fails": 0,
   "country": "Bulgaria",
   "code": "BG",
-  "exit_ip": "104.28.167.32",
+  "exit_ip": "104.28.154.231",
   "geo_src": "exit",
-  "geo_ip": "104.28.167.32",
+  "geo_ip": "104.28.154.231",
   "geo_ok": true,
-  "geo_ts": 1792588961.3793921
+  "geo_ts": 1792601808.0368068
  },
  "104.18.35.15:443:vless:ws:tls:/": {
   "fails": 0,
@@ -393,11 +383,11 @@
   "fails": 0,
   "country": "Germany",
   "code": "DE",
-  "exit_ip": "104.28.163.90",
+  "exit_ip": "104.28.163.86",
   "geo_src": "exit",
-  "geo_ip": "104.28.163.90",
+  "geo_ip": "104.28.163.86",
   "geo_ok": true,
-  "geo_ts": 1792558278.7677557
+  "geo_ts": 1792599200.956506
  },
  "104.18.35.15:443:vless:ws:tls:/?ed=2048": {
   "fails": 1,
@@ -410,7 +400,7 @@
   "code": "CA"
  },
  "104.21.93.88:443:vmess:ws:tls:/asivewritten?ed=2560": {
-  "fails": 0,
+  "fails": 1,
   "country": "Hong Kong",
   "code": "HK",
   "exit_ip": "91.229.133.111",
@@ -420,16 +410,6 @@
   "geo_ts": 1792559320.6285884
  },
  "165.154.195.38:35034:vmess:tcp:none:": {
-  "fails": 1,
-  "country": "Taiwan",
-  "code": "TW",
-  "exit_ip": "165.154.195.38",
-  "geo_src": "exit",
-  "geo_ip": "165.154.195.38",
-  "geo_ok": true,
-  "geo_ts": 1792353485.5107403
- },
- "165.154.195.38:35034:vmess:raw:none:/": {
   "fails": 2,
   "country": "Taiwan",
   "code": "TW",
@@ -437,7 +417,7 @@
   "geo_src": "exit",
   "geo_ip": "165.154.195.38",
   "geo_ok": true,
-  "geo_ts": 1792355392.1905015
+  "geo_ts": 1792353485.5107403
  },
  "104.18.0.22:443:vmess:ws:tls:/efrsdioy98wert": {
   "fails": 0,
@@ -460,7 +440,7 @@
   "geo_ts": 1792355641.7315998
  },
  "104.16.71.213:443:trojan:ws:tls:/assignment": {
-  "fails": 0,
+  "fails": 1,
   "country": "France",
   "code": "FR",
   "exit_ip": "51.159.179.93",
@@ -480,7 +460,7 @@
   "geo_ts": 1792357016.7808704
  },
  "104.17.121.43:443:trojan:ws:tls:/assignment": {
-  "fails": 0,
+  "fails": 1,
   "country": "France",
   "code": "FR",
   "exit_ip": "51.159.179.93",
@@ -500,7 +480,7 @@
   "geo_ts": 1792357136.7057233
  },
  "104.18.9.83:443:trojan:ws:tls:/assignment": {
-  "fails": 0,
+  "fails": 1,
   "country": "France",
   "code": "FR",
   "exit_ip": "51.159.179.93",
@@ -530,7 +510,7 @@
   "geo_ts": 1792355438.2860565
  },
  "104.18.37.127:443:trojan:ws:tls:/assignment": {
-  "fails": 0,
+  "fails": 1,
   "country": "The Netherlands",
   "code": "NL",
   "exit_ip": "51.158.244.35",
@@ -550,7 +530,7 @@
   "geo_ts": 1792560122.7170749
  },
  "172.64.72.171:443:trojan:ws:tls:/assignment": {
-  "fails": 1,
+  "fails": 0,
   "country": "The Netherlands",
   "code": "NL",
   "exit_ip": "51.158.244.35",
@@ -560,12 +540,12 @@
   "geo_ts": 1792560181.66009
  },
  "104.26.5.57:443:trojan:ws:tls:/tr": {
-  "fails": 1,
+  "fails": 2,
   "country": "Canada",
   "code": "CA"
  },
  "104.26.5.57:443:trojan:ws:tls:/trh3": {
-  "fails": 1,
+  "fails": 2,
   "country": "Canada",
   "code": "CA"
  },
@@ -609,16 +589,6 @@
   "geo_ok": true,
   "geo_ts": 1792356598.3403127
  },
- "13.143.137.206:8443:vless:tcp:reality:/": {
-  "fails": 2,
-  "country": "Germany",
-  "code": "DE",
-  "exit_ip": "144.31.218.49",
-  "geo_src": "exit",
-  "geo_ip": "144.31.218.49",
-  "geo_ok": true,
-  "geo_ts": 1792355608.022674
- },
  "85.9.211.58:2087:vless:tcp:none:/": {
   "fails": 0,
   "country": "The Netherlands",
@@ -651,8 +621,13 @@
  },
  "172.67.138.17:443:vless:ws:tls:/cart/docs/www/proxyip=108.160.132.132": {
   "fails": 0,
-  "country": "Canada",
-  "code": "CA"
+  "country": "Japan",
+  "code": "JP",
+  "exit_ip": "2001:19f0:7001:7bb:5400:6ff:fe1b:e433",
+  "geo_src": "exit",
+  "geo_ip": "2001:19f0:7001:7bb:5400:6ff:fe1b:e433",
+  "geo_ok": true,
+  "geo_ts": 1792600671.2838395
  },
  "172.64.144.52:443:vless:ws:tls:/": {
   "fails": 1
@@ -664,13 +639,23 @@
  },
  "104.18.1.22:443:vmess:ws:tls:/efrsdioy98wert": {
   "fails": 0,
-  "country": "Canada",
-  "code": "CA"
+  "country": "United States",
+  "code": "US",
+  "exit_ip": "107.175.6.102",
+  "geo_src": "exit",
+  "geo_ip": "107.175.6.102",
+  "geo_ok": true,
+  "geo_ts": 1792603054.8103478
  },
  "104.18.1.22:443:vmess:ws:tls:/efrsdioy98wert?ed=2560": {
-  "fails": 1,
-  "country": "Canada",
-  "code": "CA"
+  "fails": 0,
+  "country": "United States",
+  "code": "US",
+  "exit_ip": "107.175.6.102",
+  "geo_src": "exit",
+  "geo_ip": "107.175.6.102",
+  "geo_ok": true,
+  "geo_ts": 1792602514.5864158
  },
  "104.27.21.22:443:trojan:ws:tls:/assignment": {
   "fails": 0,
@@ -692,16 +677,6 @@
   "geo_ok": true,
   "geo_ts": 1792355202.6950598
  },
- "104.26.15.137:2053:trojan:ws:tls:/0962": {
-  "fails": 2,
-  "country": "Türkiye",
-  "code": "TR",
-  "exit_ip": "153.56.210.134",
-  "geo_src": "exit",
-  "geo_ip": "153.56.210.134",
-  "geo_ok": true,
-  "geo_ts": 1792356461.8654373
- },
  "104.26.4.57:443:trojan:ws:tls:/tr": {
   "fails": 2,
   "country": "Canada",
@@ -718,7 +693,7 @@
   "code": "US"
  },
  "165.154.195.38:35034:vmess:raw:none:/cctv13.m3u8": {
-  "fails": 1,
+  "fails": 2,
   "country": "Taiwan",
   "code": "TW",
   "exit_ip": "165.154.195.38",
@@ -734,11 +709,16 @@
  },
  "104.19.216.84:443:vmess:ws:tls:/androirfdsreoightrjh?ed=2560": {
   "fails": 0,
-  "country": "Canada",
-  "code": "CA"
+  "country": "United States",
+  "code": "US",
+  "exit_ip": "166.88.142.186",
+  "geo_src": "exit",
+  "geo_ip": "166.88.142.186",
+  "geo_ok": true,
+  "geo_ts": 1792602387.7201188
  },
  "185.114.72.31:2053:trojan:ws:tls:/assignment": {
-  "fails": 0,
+  "fails": 1,
   "country": "France",
   "code": "FR",
   "exit_ip": "51.158.99.112",
@@ -803,7 +783,7 @@
   "geo_ts": 1792357060.4683871
  },
  "141.193.213.172:443:trojan:ws:tls:/assignment": {
-  "fails": 0,
+  "fails": 1,
   "country": "France",
   "code": "FR",
   "exit_ip": "51.159.179.93",
@@ -813,7 +793,7 @@
   "geo_ts": 1792557554.75074
  },
  "162.159.36.20:443:trojan:ws:tls:/assignment": {
-  "fails": 0,
+  "fails": 1,
   "country": "France",
   "code": "FR",
   "exit_ip": "51.159.179.93",
@@ -823,7 +803,7 @@
   "geo_ts": 1792355297.676515
  },
  "172.67.217.240:443:trojan:ws:tls:/assignment": {
-  "fails": 0,
+  "fails": 1,
   "country": "France",
   "code": "FR",
   "exit_ip": "51.159.179.93",
@@ -833,7 +813,7 @@
   "geo_ts": 1792355223.701353
  },
  "45.130.125.126:443:trojan:ws:tls:/assignment": {
-  "fails": 0,
+  "fails": 1,
   "country": "France",
   "code": "FR",
   "exit_ip": "51.159.179.93",
@@ -843,7 +823,7 @@
   "geo_ts": 1792559847.3289785
  },
  "45.130.125.69:443:trojan:ws:tls:/assignment": {
-  "fails": 0,
+  "fails": 1,
   "country": "France",
   "code": "FR",
   "exit_ip": "51.159.179.93",
@@ -853,7 +833,7 @@
   "geo_ts": 1792356491.9732294
  },
  "45.130.125.76:443:trojan:ws:tls:/assignment": {
-  "fails": 0,
+  "fails": 1,
   "country": "France",
   "code": "FR",
   "exit_ip": "51.159.179.93",
@@ -863,7 +843,7 @@
   "geo_ts": 1792559891.8343158
  },
  "162.159.130.234:443:vless:ws:tls:/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET": {
-  "fails": 1,
+  "fails": 0,
   "country": "Canada",
   "code": "CA"
  },
@@ -873,7 +853,7 @@
   "code": "NL"
  },
  "104.21.0.87:443:vless:ws:tls:/tyxyws": {
-  "fails": 0,
+  "fails": 1,
   "country": "Japan",
   "code": "JP",
   "exit_ip": "158.101.158.101",
@@ -883,12 +863,12 @@
   "geo_ts": 1792356083.658397
  },
  "104.17.148.22:443:vless:ws:tls:/fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560#Telegram---bored_vpn": {
-  "fails": 0,
+  "fails": 1,
   "country": "Canada",
   "code": "CA"
  },
  "47.244.120.197:23026:vmess:ws:none:/arki": {
-  "fails": 0,
+  "fails": 1,
   "country": "Hong Kong",
   "code": "HK",
   "exit_ip": "47.244.120.197",
@@ -983,7 +963,7 @@
   "geo_ts": 1792355207.7278051
  },
  "154.21.203.106:21033:vless:tcp:reality:": {
-  "fails": 0,
+  "fails": 1,
   "country": "Thailand",
   "code": "TH",
   "exit_ip": "191.40.13.229",
@@ -993,7 +973,7 @@
   "geo_ts": 1792355890.3078032
  },
  "154.40.55.185:443:vless:tcp:reality:": {
-  "fails": 0,
+  "fails": 1,
   "country": "United States",
   "code": "US",
   "exit_ip": "154.40.55.185",
@@ -1057,16 +1037,6 @@
   "geo_ok": true,
   "geo_ts": 1792355103.1970978
  },
- "130.49.189.158:43558:ss:tcp:none:": {
-  "fails": 2,
-  "country": "Albania",
-  "code": "AL",
-  "exit_ip": "130.49.189.158",
-  "geo_src": "exit",
-  "geo_ip": "130.49.189.158",
-  "geo_ok": true,
-  "geo_ts": 1792354827.7274299
- },
  "82.38.31.18:8080:ss:tcp:none:": {
   "fails": 0,
   "country": "The Netherlands",
@@ -1108,7 +1078,7 @@
   "geo_ts": 1792355625.774475
  },
  "165.154.195.38:35034:vmess:tcp:none:/": {
-  "fails": 0,
+  "fails": 1,
   "country": "Taiwan",
   "code": "TW",
   "exit_ip": "165.154.195.38",
@@ -1116,26 +1086,6 @@
   "geo_ip": "165.154.195.38",
   "geo_ok": true,
   "geo_ts": 1792353501.0491772
- },
- "165.154.195.38:35034:vmess:tcp:none:/vl/xQhNe7rLrdM0emZlaW5LMsNwcoIgnT": {
-  "fails": 2,
-  "country": "Taiwan",
-  "code": "TW",
-  "exit_ip": "165.154.195.38",
-  "geo_src": "exit",
-  "geo_ip": "165.154.195.38",
-  "geo_ok": true,
-  "geo_ts": 1792353526.2294223
- },
- "165.154.195.38:35034:vmess:raw:none:": {
-  "fails": 2,
-  "country": "Taiwan",
-  "code": "TW",
-  "exit_ip": "165.154.195.38",
-  "geo_src": "exit",
-  "geo_ip": "165.154.195.38",
-  "geo_ok": true,
-  "geo_ts": 1792355497.0256662
  },
  "80.47.12.94:443:vless:tcp:reality:/": {
   "fails": 1,
@@ -1153,7 +1103,7 @@
   "code": "NL"
  },
  "138.124.98.219:443:vless:tcp:reality:": {
-  "fails": 2,
+  "fails": 0,
   "country": "The Netherlands",
   "code": "NL",
   "exit_ip": "138.124.98.219",
@@ -1176,16 +1126,6 @@
   "fails": 0,
   "country": "Poland",
   "code": "PL"
- },
- "31.59.210.32:443:vless:grpc:reality:": {
-  "fails": 2,
-  "country": "Russia",
-  "code": "RU",
-  "exit_ip": "31.59.210.32",
-  "geo_src": "exit",
-  "geo_ip": "31.59.210.32",
-  "geo_ok": true,
-  "geo_ts": 1792355311.2666183
  },
  "162.248.72.129:443:vless:tcp:reality:": {
   "fails": 0,
@@ -1213,7 +1153,7 @@
   "code": "EE"
  },
  "154.21.203.106:51279:vless:tcp:reality:": {
-  "fails": 0,
+  "fails": 1,
   "country": "Vietnam",
   "code": "VN",
   "exit_ip": "103.6.234.223",
@@ -1221,26 +1161,6 @@
   "geo_ip": "103.6.234.223",
   "geo_ok": true,
   "geo_ts": 1792355960.8390014
- },
- "193.233.74.6:8444:vless:grpc:reality:": {
-  "fails": 2,
-  "country": "Germany",
-  "code": "DE",
-  "exit_ip": "193.233.74.6",
-  "geo_src": "exit",
-  "geo_ip": "193.233.74.6",
-  "geo_ok": true,
-  "geo_ts": 1792354325.259152
- },
- "109.172.54.135:8444:vless:grpc:reality:": {
-  "fails": 2,
-  "country": "Finland",
-  "code": "FI",
-  "exit_ip": "185.42.163.123",
-  "geo_src": "exit",
-  "geo_ip": "185.42.163.123",
-  "geo_ok": true,
-  "geo_ts": 1792356142.5481675
  },
  "57.131.48.45:8388:ss:tcp:none:": {
   "fails": 0,
@@ -1253,7 +1173,7 @@
   "geo_ts": 1792354975.4245372
  },
  "172.105.39.124:7002:ss:tcp:none:": {
-  "fails": 0,
+  "fails": 1,
   "country": "India",
   "code": "IN",
   "exit_ip": "172.105.39.124",
@@ -1281,16 +1201,6 @@
   "fails": 0,
   "country": "Poland",
   "code": "PL"
- },
- "153.80.241.206:8444:vless:grpc:reality:": {
-  "fails": 2,
-  "country": "Finland",
-  "code": "FI",
-  "exit_ip": "153.80.241.206",
-  "geo_src": "exit",
-  "geo_ip": "153.80.241.206",
-  "geo_ok": true,
-  "geo_ts": 1792355524.093237
  },
  "82.38.31.180:8080:ss:tcp:none:": {
   "fails": 0,
@@ -1353,7 +1263,7 @@
   "code": "TR"
  },
  "104.16.10.251:443:vless:ws:tls:/ws": {
-  "fails": 1,
+  "fails": 2,
   "country": "United States",
   "code": "US",
   "exit_ip": "129.146.86.61",
@@ -1367,16 +1277,6 @@
   "country": "Germany",
   "code": "DE"
  },
- "88.218.42.101:443:vless:grpc:tls:": {
-  "fails": 2,
-  "country": "France",
-  "code": "FR",
-  "exit_ip": "104.28.211.199",
-  "geo_src": "exit",
-  "geo_ip": "104.28.211.199",
-  "geo_ok": true,
-  "geo_ts": 1792354375.998565
- },
  "45.9.156.42:443:vless:grpc:reality:": {
   "fails": 0,
   "country": "Bulgaria",
@@ -1386,26 +1286,6 @@
   "geo_ip": "45.9.156.42",
   "geo_ok": true,
   "geo_ts": 1792355136.047764
- },
- "213.165.56.102:443:vless:tcp:reality:": {
-  "fails": 2,
-  "country": "Germany",
-  "code": "DE",
-  "exit_ip": "109.122.198.14",
-  "geo_src": "exit",
-  "geo_ip": "109.122.198.14",
-  "geo_ok": true,
-  "geo_ts": 1792356113.9452007
- },
- "103.214.69.177:443:vless:tcp:reality:": {
-  "fails": 2,
-  "country": "Canada",
-  "code": "CA",
-  "exit_ip": "103.214.69.177",
-  "geo_src": "exit",
-  "geo_ip": "103.214.69.177",
-  "geo_ok": true,
-  "geo_ts": 1792357460.3144963
  },
  "77.83.199.85:24452:vless:tcp:reality:": {
   "fails": 2,
@@ -1432,18 +1312,8 @@
   "country": "Germany",
   "code": "DE"
  },
- "143.246.41.31:443:vless:tcp:reality:": {
-  "fails": 2,
-  "country": "Estonia",
-  "code": "EE",
-  "exit_ip": "104.28.201.138",
-  "geo_src": "exit",
-  "geo_ip": "104.28.201.138",
-  "geo_ok": true,
-  "geo_ts": 1792355110.5631652
- },
  "140.225.199.210:443:vless:tcp:reality:": {
-  "fails": 1,
+  "fails": 2,
   "country": "Finland",
   "code": "FI",
   "exit_ip": "153.76.202.21",
@@ -1523,7 +1393,7 @@
   "geo_ts": 1792356056.6702971
  },
  "51.222.155.32:5003:ss:tcp:none:": {
-  "fails": 1,
+  "fails": 2,
   "country": "Canada",
   "code": "CA",
   "exit_ip": "51.222.155.32",
@@ -1542,18 +1412,8 @@
   "geo_ok": true,
   "geo_ts": 1792354945.7057781
  },
- "81.90.21.89:8443:vless:grpc:reality:": {
-  "fails": 2,
-  "country": "Finland",
-  "code": "FI",
-  "exit_ip": "81.90.21.89",
-  "geo_src": "exit",
-  "geo_ip": "81.90.21.89",
-  "geo_ok": true,
-  "geo_ts": 1792356273.9541552
- },
  "95.174.68.188:14430:vless:ws:none:/vless": {
-  "fails": 0,
+  "fails": 1,
   "country": "United Arab Emirates",
   "code": "AE",
   "exit_ip": "95.174.68.188",
@@ -1561,11 +1421,6 @@
   "geo_ip": "95.174.68.188",
   "geo_ok": true,
   "geo_ts": 1792356404.952736
- },
- "103.160.59.198:443:vless:ws:tls:/": {
-  "fails": 2,
-  "country": "Germany",
-  "code": "DE"
  },
  "133.242.187.161:443:vless:tcp:reality:/": {
   "fails": 0,
@@ -1589,8 +1444,13 @@
  },
  "188.114.98.0:443:vless:ws:tls:/fdip": {
   "fails": 0,
-  "country": "Canada",
-  "code": "CA"
+  "country": "Germany",
+  "code": "DE",
+  "exit_ip": "104.28.162.109",
+  "geo_src": "exit",
+  "geo_ip": "104.28.162.109",
+  "geo_ok": true,
+  "geo_ts": 1792600436.3290439
  },
  "23.94.251.190:443:vless:tcp:reality:/": {
   "fails": 0,
@@ -1608,7 +1468,7 @@
   "code": "DE"
  },
  "155.138.138.2:443:trojan:tcp:tls:": {
-  "fails": 2,
+  "fails": 0,
   "country": "Canada",
   "code": "CA",
   "exit_ip": "155.138.138.2",
@@ -1628,7 +1488,7 @@
   "geo_ts": 1792354928.7833881
  },
  "217.60.183.95:33744:vmess:ws:none:/ShamanVMESS2026": {
-  "fails": 0,
+  "fails": 1,
   "country": "Germany",
   "code": "DE",
   "exit_ip": "217.60.179.244",
@@ -1638,7 +1498,7 @@
   "geo_ts": 1792353428.9022746
  },
  "8.47.69.0:443:trojan:ws:tls:/assignment": {
-  "fails": 1,
+  "fails": 0,
   "country": "The Netherlands",
   "code": "NL",
   "exit_ip": "51.158.182.140",
@@ -1647,18 +1507,8 @@
   "geo_ok": true,
   "geo_ts": 1792557574.390593
  },
- "78.17.171.62:443:trojan:ws:tls:/f2fc2a1f": {
-  "fails": 2,
-  "country": "Poland",
-  "code": "PL",
-  "exit_ip": "78.17.171.62",
-  "geo_src": "exit",
-  "geo_ip": "78.17.171.62",
-  "geo_ok": true,
-  "geo_ts": 1792353574.4941921
- },
  "45.80.111.7:443:trojan:ws:tls:/assignment": {
-  "fails": 0,
+  "fails": 1,
   "country": "France",
   "code": "FR",
   "exit_ip": "51.159.179.93",
@@ -1687,36 +1537,6 @@
   "geo_ok": true,
   "geo_ts": 1792353558.6387653
  },
- "78.17.171.62:443:trojan:tcp:tls:": {
-  "fails": 2,
-  "country": "Poland",
-  "code": "PL",
-  "exit_ip": "78.17.171.62",
-  "geo_src": "exit",
-  "geo_ip": "78.17.171.62",
-  "geo_ok": true,
-  "geo_ts": 1792353595.473174
- },
- "50.7.154.75:443:vless:tcp:reality:": {
-  "fails": 2,
-  "country": "United Kingdom",
-  "code": "GB",
-  "exit_ip": "50.7.226.2",
-  "geo_src": "exit",
-  "geo_ip": "50.7.226.2",
-  "geo_ok": true,
-  "geo_ts": 1792353731.7807145
- },
- "189.74.116.37:443:vless:tcp:reality:": {
-  "fails": 2,
-  "country": "Poland",
-  "code": "PL",
-  "exit_ip": "50.7.248.219",
-  "geo_src": "exit",
-  "geo_ip": "50.7.248.219",
-  "geo_ok": true,
-  "geo_ts": 1792353759.8526566
- },
  "189.74.106.29:443:vless:tcp:reality:": {
   "fails": 0,
   "country": "Germany",
@@ -1728,29 +1548,14 @@
   "geo_ts": 1792353790.1812894
  },
  "2.28.42.209:8443:vless:ws:tls:/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443": {
-  "fails": 1,
+  "fails": 2,
   "country": "Germany",
   "code": "DE"
  },
- "188.114.96.3:443:vless:ws:tls:/zoodi": {
-  "fails": 2,
-  "country": "France",
-  "code": "FR",
-  "exit_ip": "54.38.1.95",
-  "geo_src": "exit",
-  "geo_ip": "54.38.1.95",
-  "geo_ok": true,
-  "geo_ts": 1792353832.3972046
- },
  "124.156.173.124:443:vless:ws:tls:/": {
-  "fails": 0,
+  "fails": 1,
   "country": "Hong Kong",
   "code": "HK"
- },
- "45.192.206.187:443:vless:ws:tls:/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443": {
-  "fails": 2,
-  "country": "Japan",
-  "code": "JP"
  },
  "60.130.209.253:443:vless:ws:tls:/": {
   "fails": 0,
@@ -1766,11 +1571,11 @@
   "fails": 0,
   "country": "Norway",
   "code": "NO",
-  "exit_ip": "104.28.156.45",
+  "exit_ip": "104.28.165.67",
   "geo_src": "exit",
-  "geo_ip": "104.28.156.45",
+  "geo_ip": "104.28.165.67",
   "geo_ok": true,
-  "geo_ts": 1792588826.8013856
+  "geo_ts": 1792601657.6588292
  },
  "104.245.245.16:8443:vless:ws:tls:/": {
   "fails": 0,
@@ -1783,7 +1588,7 @@
   "geo_ts": 1792586501.2748942
  },
  "103.161.178.72:443:vless:ws:tls:/": {
-  "fails": 1,
+  "fails": 0,
   "country": "Singapore",
   "code": "SG",
   "exit_ip": "104.28.160.166",
@@ -1798,7 +1603,7 @@
   "code": "VN"
  },
  "103.195.191.121:443:vless:ws:tls:/": {
-  "fails": 1,
+  "fails": 0,
   "country": "Singapore",
   "code": "SG"
  },
@@ -1816,14 +1621,14 @@
   "fails": 0,
   "country": "Thailand",
   "code": "TH",
-  "exit_ip": "104.28.156.180",
+  "exit_ip": "104.28.160.208",
   "geo_src": "exit",
-  "geo_ip": "104.28.156.180",
+  "geo_ip": "104.28.160.208",
   "geo_ok": true,
-  "geo_ts": 1792354086.6752515
+  "geo_ts": 1792602703.6718755
  },
  "104.17.147.22:443:vless:ws:tls:/": {
-  "fails": 0,
+  "fails": 1,
   "country": "Germany",
   "code": "DE",
   "exit_ip": "104.28.164.226",
@@ -1832,23 +1637,18 @@
   "geo_ok": true,
   "geo_ts": 1792558740.9162967
  },
- "179.255.123.130:443:vless:ws:tls:/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443": {
-  "fails": 2,
-  "country": "United States",
-  "code": "US"
- },
  "104.18.35.86:2082:vless:ws:none:/fp": {
   "fails": 0,
   "country": "Canada",
   "code": "CA"
  },
  "43.174.195.1:443:vless:ws:tls:/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443": {
-  "fails": 1,
+  "fails": 2,
   "country": "Singapore",
   "code": "SG"
  },
  "172.235.62.90:443:vless:tcp:reality:": {
-  "fails": 0,
+  "fails": 1,
   "country": "United States",
   "code": "US",
   "exit_ip": "172.235.62.90",
@@ -1857,68 +1657,8 @@
   "geo_ok": true,
   "geo_ts": 1792354319.7906766
  },
- "144.31.4.234:443:vless:tcp:reality:": {
-  "fails": 2,
-  "country": "Poland",
-  "code": "PL",
-  "exit_ip": "144.31.3.58",
-  "geo_src": "exit",
-  "geo_ip": "144.31.3.58",
-  "geo_ok": true,
-  "geo_ts": 1792356001.6106036
- },
- "50.7.176.123:443:vless:tcp:reality:": {
-  "fails": 2,
-  "country": "The Netherlands",
-  "code": "NL",
-  "exit_ip": "50.7.177.133",
-  "geo_src": "exit",
-  "geo_ip": "50.7.177.133",
-  "geo_ok": true,
-  "geo_ts": 1792354353.7835572
- },
- "188.93.233.247:443:vless:tcp:reality:": {
-  "fails": 2,
-  "country": "Netherlands",
-  "code": "NL",
-  "exit_ip": "188.93.233.247",
-  "geo_src": "exit",
-  "geo_ip": "188.93.233.247",
-  "geo_ok": true,
-  "geo_ts": 1792354334.5978565
- },
- "31.76.246.65:706:vless:grpc:reality:": {
-  "fails": 2,
-  "country": "United Kingdom",
-  "code": "GB",
-  "exit_ip": "31.76.246.24",
-  "geo_src": "exit",
-  "geo_ip": "31.76.246.24",
-  "geo_ok": true,
-  "geo_ts": 1792354390.6460788
- },
- "31.76.246.25:706:vless:grpc:reality:": {
-  "fails": 2,
-  "country": "United Kingdom",
-  "code": "GB",
-  "exit_ip": "31.76.246.25",
-  "geo_src": "exit",
-  "geo_ip": "31.76.246.25",
-  "geo_ok": true,
-  "geo_ts": 1792354411.805782
- },
- "13.143.162.138:8443:vless:tcp:reality:": {
-  "fails": 2,
-  "country": "Germany",
-  "code": "DE",
-  "exit_ip": "94.156.179.75",
-  "geo_src": "exit",
-  "geo_ip": "94.156.179.75",
-  "geo_ok": true,
-  "geo_ts": 1792354416.7142017
- },
  "109.69.218.164:443:vless:tcp:reality:": {
-  "fails": 1,
+  "fails": 2,
   "country": "Belgium",
   "code": "BE",
   "exit_ip": "109.69.218.161",
@@ -1926,26 +1666,6 @@
   "geo_ip": "109.69.218.161",
   "geo_ok": true,
   "geo_ts": 1792558419.4105232
- },
- "31.76.246.54:706:vless:grpc:reality:": {
-  "fails": 2,
-  "country": "United Kingdom",
-  "code": "GB",
-  "exit_ip": "31.76.246.54",
-  "geo_src": "exit",
-  "geo_ip": "31.76.246.54",
-  "geo_ok": true,
-  "geo_ts": 1792354442.8565679
- },
- "108.61.186.37:443:trojan:tcp:tls:": {
-  "fails": 2,
-  "country": "Japan",
-  "code": "JP",
-  "exit_ip": "108.61.186.37",
-  "geo_src": "exit",
-  "geo_ip": "108.61.186.37",
-  "geo_ok": true,
-  "geo_ts": 1792354490.0320663
  },
  "46.229.253.57:443:trojan:tcp:tls:": {
   "fails": 0,
@@ -1988,7 +1708,7 @@
   "geo_ts": 1792354539.9550676
  },
  "198.98.53.130:443:ss:tcp:none:": {
-  "fails": 1,
+  "fails": 2,
   "country": "United States",
   "code": "US",
   "exit_ip": "198.98.53.130",
@@ -2008,7 +1728,7 @@
   "geo_ts": 1792354696.0685134
  },
  "15.204.247.175:8008:ss:tcp:none:": {
-  "fails": 0,
+  "fails": 1,
   "country": "United States",
   "code": "US",
   "exit_ip": "15.204.247.175",
@@ -2056,86 +1776,6 @@
   "geo_ip": "51.222.136.236",
   "geo_ok": true,
   "geo_ts": 1792356098.899508
- },
- "185.226.172.8:8008:ss:tcp:none:": {
-  "fails": 2,
-  "country": "Germany",
-  "code": "DE",
-  "exit_ip": "185.226.172.8",
-  "geo_src": "exit",
-  "geo_ip": "185.226.172.8",
-  "geo_ok": true,
-  "geo_ts": 1792354966.1835556
- },
- "49.13.39.43:97:ss:tcp:none:": {
-  "fails": 2,
-  "country": "Germany",
-  "code": "DE",
-  "exit_ip": "195.201.147.59",
-  "geo_src": "exit",
-  "geo_ip": "195.201.147.59",
-  "geo_ok": true,
-  "geo_ts": 1792354801.9643984
- },
- "2.26.90.120:443:ss:tcp:none:": {
-  "fails": 2,
-  "country": "Germany",
-  "code": "DE",
-  "exit_ip": "2.26.90.120",
-  "geo_src": "exit",
-  "geo_ip": "2.26.90.120",
-  "geo_ok": true,
-  "geo_ts": 1792354812.500258
- },
- "96.45.186.114:8443:ss:tcp:none:": {
-  "fails": 2,
-  "country": "United States",
-  "code": "US",
-  "exit_ip": "96.45.186.114",
-  "geo_src": "exit",
-  "geo_ip": "96.45.186.114",
-  "geo_ok": true,
-  "geo_ts": 1792354852.6066947
- },
- "5.161.210.30:2066:ss:tcp:none:": {
-  "fails": 2,
-  "country": "United States",
-  "code": "US",
-  "exit_ip": "5.161.210.30",
-  "geo_src": "exit",
-  "geo_ip": "5.161.210.30",
-  "geo_ok": true,
-  "geo_ts": 1792354886.2747083
- },
- "78.141.231.155:2055:ss:tcp:none:": {
-  "fails": 2,
-  "country": "United Kingdom",
-  "code": "GB",
-  "exit_ip": "78.141.231.155",
-  "geo_src": "exit",
-  "geo_ip": "78.141.231.155",
-  "geo_ok": true,
-  "geo_ts": 1792354891.118448
- },
- "31.76.246.50:706:vless:grpc:reality:": {
-  "fails": 2,
-  "country": "United Kingdom",
-  "code": "GB",
-  "exit_ip": "31.76.246.50",
-  "geo_src": "exit",
-  "geo_ip": "31.76.246.50",
-  "geo_ok": true,
-  "geo_ts": 1792354460.840176
- },
- "188.93.233.247:2053:vless:grpc:reality:": {
-  "fails": 2,
-  "country": "Netherlands",
-  "code": "NL",
-  "exit_ip": "188.93.233.247",
-  "geo_src": "exit",
-  "geo_ip": "188.93.233.247",
-  "geo_ok": true,
-  "geo_ts": 1792354342.0387244
  },
  "217.60.185.115:443:vless:tcp:reality:/": {
   "fails": 2
@@ -2187,7 +1827,7 @@
   "fails": 2
  },
  "45.131.4.38:443:trojan:ws:tls:/assignment": {
-  "fails": 1,
+  "fails": 2,
   "exit_ip": "51.158.182.140",
   "country": "The Netherlands",
   "code": "NL",
@@ -2197,7 +1837,7 @@
   "geo_ts": 1792353678.0858233
  },
  "103.161.178.215:443:vless:ws:tls:/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443": {
-  "fails": 1,
+  "fails": 0,
   "country": "Vietnam",
   "code": "VN",
   "geo_src": "entry",
@@ -2207,13 +1847,13 @@
  },
  "130.94.1.177:443:vless:ws:tls:/": {
   "fails": 0,
-  "exit_ip": "104.28.154.251",
+  "exit_ip": "104.28.154.249",
   "country": "Türkiye",
   "code": "TR",
   "geo_src": "exit",
-  "geo_ip": "104.28.154.251",
+  "geo_ip": "104.28.154.249",
   "geo_ok": true,
-  "geo_ts": 1792559716.8410482
+  "geo_ts": 1792601758.9536672
  },
  "150.230.211.193:1003:vless:tcp:reality:/": {
   "fails": 0,
@@ -2226,7 +1866,7 @@
   "geo_ts": 1792354119.193447
  },
  "45.61.149.205:8443:vless:ws:tls:/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443": {
-  "fails": 1,
+  "fails": 0,
   "country": "United States",
   "code": "US",
   "geo_src": "entry",
@@ -2243,46 +1883,6 @@
   "geo_ip": "162.35.126.130",
   "geo_ok": true,
   "geo_ts": 1792354359.505724
- },
- "104.225.239.122:443:vless:tcp:reality:": {
-  "fails": 2,
-  "exit_ip": "104.225.239.122",
-  "country": "United States",
-  "code": "US",
-  "geo_src": "exit",
-  "geo_ip": "104.225.239.122",
-  "geo_ok": true,
-  "geo_ts": 1792354385.405275
- },
- "31.76.246.27:706:vless:grpc:reality:": {
-  "fails": 2,
-  "exit_ip": "31.76.246.27",
-  "country": "United Kingdom",
-  "code": "GB",
-  "geo_src": "exit",
-  "geo_ip": "31.76.246.27",
-  "geo_ok": true,
-  "geo_ts": 1792354402.7519386
- },
- "122.8.45.3:443:vless:xhttp:reality:/": {
-  "fails": 2,
-  "exit_ip": "193.31.127.2",
-  "country": "Finland",
-  "code": "FI",
-  "geo_src": "exit",
-  "geo_ip": "193.31.127.2",
-  "geo_ok": true,
-  "geo_ts": 1792354434.2327118
- },
- "94.183.179.104:443:vless:tcp:reality:": {
-  "fails": 2,
-  "exit_ip": "94.183.179.104",
-  "country": "United Kingdom",
-  "code": "GB",
-  "geo_src": "exit",
-  "geo_ip": "94.183.179.104",
-  "geo_ok": true,
-  "geo_ts": 1792354469.594338
  },
  "188.241.241.117:443:trojan:tcp:tls:": {
   "fails": 0,
@@ -2304,28 +1904,8 @@
   "geo_ok": true,
   "geo_ts": 1792354516.0457335
  },
- "211.174.113.172:49642:ss:tcp:none:": {
-  "fails": 2,
-  "exit_ip": "211.174.113.172",
-  "country": "South Korea",
-  "code": "KR",
-  "geo_src": "exit",
-  "geo_ip": "211.174.113.172",
-  "geo_ok": true,
-  "geo_ts": 1792354618.9183452
- },
- "64.74.163.69:18766:ss:tcp:none:": {
-  "fails": 2,
-  "exit_ip": "64.74.163.66",
-  "country": "Canada",
-  "code": "CA",
-  "geo_src": "exit",
-  "geo_ip": "64.74.163.66",
-  "geo_ok": true,
-  "geo_ts": 1792354710.6607366
- },
  "15.204.247.244:443:ss:tcp:none:": {
-  "fails": 1,
+  "fails": 2,
   "exit_ip": "15.204.247.244",
   "country": "United States",
   "code": "US",
@@ -2333,26 +1913,6 @@
   "geo_ip": "15.204.247.244",
   "geo_ok": true,
   "geo_ts": 1792354792.5945776
- },
- "157.22.134.168:140:ss:tcp:none:": {
-  "fails": 2,
-  "exit_ip": "157.22.134.168",
-  "country": "Uzbekistan",
-  "code": "UZ",
-  "geo_src": "exit",
-  "geo_ip": "157.22.134.168",
-  "geo_ok": true,
-  "geo_ts": 1792354878.6826394
- },
- "185.156.108.135:188:ss:tcp:none:": {
-  "fails": 2,
-  "exit_ip": "172.232.143.232",
-  "country": "Sweden",
-  "code": "SE",
-  "geo_src": "exit",
-  "geo_ip": "172.232.143.232",
-  "geo_ok": true,
-  "geo_ts": 1792354895.8900824
  },
  "104.21.71.249:443:vless:ws:tls:/cart/docs/www/proxyip=108.160.132.132": {
   "fails": 0,
@@ -2387,7 +1947,7 @@
   "fails": 1
  },
  "104.18.40.171:443:vless:ws:tls:/": {
-  "fails": 1
+  "fails": 2
  },
  "154.40.32.140:41705:vless:tcp:reality:": {
   "fails": 0,
@@ -2400,7 +1960,7 @@
   "geo_ts": 1792357655.5321746
  },
  "199.181.197.99:443:trojan:ws:tls:/pulse": {
-  "fails": 1,
+  "fails": 2,
   "country": "United States",
   "code": "US",
   "geo_src": "entry",
@@ -2408,18 +1968,15 @@
   "geo_ok": false,
   "geo_ts": 1792557580.7672858
  },
- "189.74.106.30:443:vless:tcp:reality:": {
-  "fails": 2
- },
  "130.78.185.4:443:vless:ws:tls:/": {
   "fails": 0,
-  "exit_ip": "104.28.159.28",
+  "exit_ip": "104.28.163.156",
   "country": "Austria",
   "code": "AT",
   "geo_src": "exit",
-  "geo_ip": "104.28.159.28",
+  "geo_ip": "104.28.163.156",
   "geo_ok": true,
-  "geo_ts": 1792557603.5946317
+  "geo_ts": 1792601834.0406988
  },
  "110.172.148.33:443:vless:ws:tls:/fp=chrome": {
   "fails": 0,
@@ -2432,23 +1989,23 @@
  },
  "13.140.29.45:443:vless:ws:tls:/": {
   "fails": 0,
-  "exit_ip": "104.28.154.230",
-  "country": "Bulgaria",
-  "code": "BG",
-  "geo_src": "exit",
-  "geo_ip": "104.28.154.230",
-  "geo_ok": true,
-  "geo_ts": 1792588724.2865274
- },
- "104.152.48.248:443:vless:ws:tls:/": {
-  "fails": 1,
   "exit_ip": "104.28.167.32",
   "country": "Bulgaria",
   "code": "BG",
   "geo_src": "exit",
   "geo_ip": "104.28.167.32",
   "geo_ok": true,
-  "geo_ts": 1792557634.5223877
+  "geo_ts": 1792601019.8173268
+ },
+ "104.152.48.248:443:vless:ws:tls:/": {
+  "fails": 0,
+  "exit_ip": "104.28.154.231",
+  "country": "Bulgaria",
+  "code": "BG",
+  "geo_src": "exit",
+  "geo_ip": "104.28.154.231",
+  "geo_ok": true,
+  "geo_ts": 1792598569.511263
  },
  "194.55.164.118:443:vless:ws:tls:/": {
   "fails": 0,
@@ -2461,7 +2018,7 @@
   "geo_ts": 1792557669.4472709
  },
  "172.67.118.45:443:vless:ws:tls:/fdip#TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560": {
-  "fails": 1,
+  "fails": 2,
   "country": "United States",
   "code": "US",
   "geo_src": "entry",
@@ -2470,7 +2027,7 @@
   "geo_ts": 1792557674.8862135
  },
  "178.105.113.205:8443:vless:ws:tls:/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443": {
-  "fails": 1,
+  "fails": 0,
   "country": "Germany",
   "code": "DE",
   "geo_src": "entry",
@@ -2479,7 +2036,7 @@
   "geo_ts": 1792557680.8534794
  },
  "89.127.210.40:443:vless:tcp:reality:/": {
-  "fails": 1,
+  "fails": 2,
   "exit_ip": "89.127.210.40",
   "country": "Germany",
   "code": "DE",
@@ -2498,7 +2055,7 @@
   "geo_ts": 1792557694.0054338
  },
  "138.124.54.223:443:vless:ws:tls:/": {
-  "fails": 1,
+  "fails": 0,
   "country": "Germany",
   "code": "DE",
   "geo_src": "entry",
@@ -2516,7 +2073,7 @@
   "geo_ts": 1792557710.297178
  },
  "177.1.187.183:443:vless:ws:tls:/": {
-  "fails": 1,
+  "fails": 2,
   "country": "Germany",
   "code": "DE",
   "geo_src": "entry",
@@ -2554,7 +2111,7 @@
   "geo_ts": 1792586047.3329666
  },
  "23.81.36.148:8080:vless:ws:none:/": {
-  "fails": 1,
+  "fails": 0,
   "exit_ip": "23.81.36.148",
   "country": "United Kingdom",
   "code": "GB",
@@ -2574,7 +2131,7 @@
   "geo_ts": 1792557773.355259
  },
  "193.134.210.14:2053:vless:ws:tls:/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443": {
-  "fails": 1,
+  "fails": 2,
   "country": "Hong Kong",
   "code": "HK",
   "geo_src": "entry",
@@ -2583,7 +2140,7 @@
   "geo_ts": 1792557823.6237433
  },
  "151.242.85.236:443:vless:tcp:reality:/": {
-  "fails": 0,
+  "fails": 1,
   "exit_ip": "151.242.85.236",
   "country": "Hong Kong",
   "code": "HK",
@@ -2593,7 +2150,7 @@
   "geo_ts": 1792557834.3908007
  },
  "103.38.236.248:443:vless:ws:tls:/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443": {
-  "fails": 0,
+  "fails": 1,
   "country": "Vietnam",
   "code": "VN",
   "geo_src": "entry",
@@ -2602,7 +2159,7 @@
   "geo_ts": 1792557856.7896883
  },
  "202.50.253.81:19999:ss:tcp:none:": {
-  "fails": 0,
+  "fails": 1,
   "exit_ip": "80.174.118.80",
   "country": "Italy",
   "code": "IT",
@@ -2612,7 +2169,7 @@
   "geo_ts": 1792557860.742671
  },
  "202.50.253.18:19999:ss:tcp:none:": {
-  "fails": 1,
+  "fails": 0,
   "exit_ip": "80.174.118.13",
   "country": "Italy",
   "code": "IT",
@@ -2643,16 +2200,16 @@
  },
  "161.248.62.26:8443:vless:ws:tls:/": {
   "fails": 0,
-  "exit_ip": "104.28.157.43",
+  "exit_ip": "104.28.165.234",
   "country": "Japan",
   "code": "JP",
   "geo_src": "exit",
-  "geo_ip": "104.28.157.43",
+  "geo_ip": "104.28.165.234",
   "geo_ok": true,
-  "geo_ts": 1792586346.6674144
+  "geo_ts": 1792602791.686469
  },
  "188.240.213.98:2053:vless:ws:tls:/": {
-  "fails": 1,
+  "fails": 0,
   "exit_ip": "104.28.165.47",
   "country": "Kyrgyzstan",
   "code": "KG",
@@ -2662,7 +2219,7 @@
   "geo_ts": 1792557968.3461936
  },
  "141.164.34.161:8443:vless:ws:tls:/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443": {
-  "fails": 1,
+  "fails": 0,
   "country": "South Korea",
   "code": "KR",
   "geo_src": "entry",
@@ -2671,7 +2228,7 @@
   "geo_ts": 1792557990.2102869
  },
  "172.96.160.250:40029:ss:tcp:none:": {
-  "fails": 1,
+  "fails": 2,
   "exit_ip": "109.61.127.113",
   "country": "South Korea",
   "code": "KR",
@@ -2691,7 +2248,7 @@
   "geo_ts": 1792558025.8230374
  },
  "46.243.142.2:443:vless:ws:tls:/cart/sync/g-jSjxyhq24P": {
-  "fails": 1,
+  "fails": 2,
   "exit_ip": "213.189.8.16",
   "country": "Germany",
   "code": "DE",
@@ -2721,7 +2278,7 @@
   "geo_ts": 1792586555.7786376
  },
  "83.229.123.135:443:vless:ws:tls:/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chromefp=chrome": {
-  "fails": 0,
+  "fails": 1,
   "country": "Hong Kong",
   "code": "HK",
   "geo_src": "entry",
@@ -2730,13 +2287,14 @@
   "geo_ts": 1792558095.0128002
  },
  "173.242.51.189:443:vless:ws:tls:/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443": {
-  "fails": 1,
-  "country": "Ukraine",
-  "code": "UA",
-  "geo_src": "entry",
-  "geo_ip": "173.242.51.189",
-  "geo_ok": false,
-  "geo_ts": 1792558127.9670098
+  "fails": 0,
+  "country": "Austria",
+  "code": "AT",
+  "geo_src": "exit",
+  "geo_ip": "104.28.156.4",
+  "geo_ok": true,
+  "geo_ts": 1792603680.4672575,
+  "exit_ip": "104.28.156.4"
  },
  "207.246.105.197:443:vless:ws:tls:/fp=chrome": {
   "fails": 0,
@@ -2748,7 +2306,7 @@
   "geo_ts": 1792558140.872735
  },
  "104.16.10.21:443:vless:ws:tls:/ws": {
-  "fails": 0,
+  "fails": 1,
   "exit_ip": "129.146.86.61",
   "country": "United States",
   "code": "US",
@@ -2758,7 +2316,7 @@
   "geo_ts": 1792558157.3066506
  },
  "104.19.173.68:8080:vless:ws:none:/": {
-  "fails": 1,
+  "fails": 2,
   "country": "United States",
   "code": "US",
   "geo_src": "entry",
@@ -2796,7 +2354,7 @@
   "geo_ts": 1792558218.484965
  },
  "188.114.98.0:443:vless:ws:tls:/mky-ws-4f19c8a7": {
-  "fails": 0,
+  "fails": 1,
   "exit_ip": "138.124.99.67",
   "country": "Finland",
   "code": "FI",
@@ -2806,7 +2364,7 @@
   "geo_ts": 1792558228.468308
  },
  "104.16.10.198:443:vless:ws:tls:/": {
-  "fails": 1,
+  "fails": 2,
   "exit_ip": "104.64.210.56",
   "country": "Singapore",
   "code": "SG",
@@ -2814,9 +2372,6 @@
   "geo_ip": "104.64.210.56",
   "geo_ok": true,
   "geo_ts": 1792558239.6149132
- },
- "45.194.66.193:443:vless:tcp:reality:": {
-  "fails": 2
  },
  "104.17.147.22:443:vless:ws:tls:/fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560#Telegram---bored_vpn": {
   "fails": 0,
@@ -2827,38 +2382,14 @@
   "geo_ok": false,
   "geo_ts": 1792558465.3969786
  },
- "ofve43bx.zf-all.9999231.xyz:1003:vless:tcp:reality:/": {
-  "fails": 2
- },
- "103.214.173.62:41705:vless:tcp:reality:": {
-  "fails": 2
- },
- "31.59.182.149:443:vless:tcp:reality:/": {
-  "fails": 2
- },
- "201.10.91.31:25080:vless:tcp:reality:": {
-  "fails": 2
- },
- "central-jawfish.rooster465.autos:443:trojan:tcp:tls:": {
-  "fails": 2
- },
- "192.81.135.178:443:vless:tcp:reality:/": {
-  "fails": 2
- },
- "93.123.85.112:25031:vless:tcp:reality:": {
-  "fails": 2
- },
  "159.195.41.198:443:vless:tcp:reality:": {
   "fails": 2
  },
  "193.148.253.53:25411:vless:tcp:reality:": {
   "fails": 2
  },
- "217.60.65.193:443:vless:tcp:reality:/": {
-  "fails": 2
- },
  "94.20.154.66:443:vless:ws:tls:/": {
-  "fails": 0,
+  "fails": 1,
   "exit_ip": "104.28.155.81",
   "country": "Azerbaijan",
   "code": "AZ",
@@ -2878,7 +2409,7 @@
   "geo_ts": 1792585859.0664027
  },
  "144.31.34.146:2096:vless:ws:tls:/mky-ws-4f19c8a7": {
-  "fails": 0,
+  "fails": 1,
   "exit_ip": "138.124.99.67",
   "country": "Finland",
   "code": "FI",
@@ -2897,7 +2428,7 @@
   "geo_ts": 1792585937.8435922
  },
  "185.208.172.85:8443:vless:ws:tls:/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443": {
-  "fails": 0,
+  "fails": 1,
   "country": "Germany",
   "code": "DE",
   "geo_src": "entry",
@@ -2906,7 +2437,7 @@
   "geo_ts": 1792585976.3520973
  },
  "13.134.170.98:22223:vless:tcp:none:/": {
-  "fails": 0,
+  "fails": 1,
   "exit_ip": "13.134.170.98",
   "country": "United Kingdom",
   "code": "GB",
@@ -2916,7 +2447,7 @@
   "geo_ts": 1792586072.5459297
  },
  "13.134.170.98:22224:vless:tcp:none:/": {
-  "fails": 0,
+  "fails": 1,
   "exit_ip": "13.134.170.98",
   "country": "United Kingdom",
   "code": "GB",
@@ -2926,7 +2457,7 @@
   "geo_ts": 1792586095.9425921
  },
  "47.243.194.125:443:vmess:ws:tls:/ws-vmess": {
-  "fails": 0,
+  "fails": 1,
   "exit_ip": "47.243.194.125",
   "country": "Hong Kong",
   "code": "HK",
@@ -2936,7 +2467,7 @@
   "geo_ts": 1792586170.3889215
  },
  "68.64.179.129:443:vless:ws:tls:/": {
-  "fails": 0,
+  "fails": 1,
   "country": "Hong Kong",
   "code": "HK",
   "geo_src": "entry",
@@ -2945,7 +2476,7 @@
   "geo_ts": 1792586227.4428782
  },
  "185.239.48.154:8443:vless:ws:tls:/": {
-  "fails": 0,
+  "fails": 1,
   "exit_ip": "104.28.165.2",
   "country": "Israel",
   "code": "IL",
@@ -2955,7 +2486,7 @@
   "geo_ts": 1792586296.8724222
  },
  "155.254.103.179:52804:vless:tcp:reality:/": {
-  "fails": 0,
+  "fails": 1,
   "exit_ip": "103.134.35.68",
   "country": "Japan",
   "code": "JP",
@@ -2965,7 +2496,7 @@
   "geo_ts": 1792586392.6568904
  },
  "146.56.151.92:443:vless:ws:tls:/fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chrome": {
-  "fails": 0,
+  "fails": 1,
   "exit_ip": "104.28.157.3",
   "country": "South Korea",
   "code": "KR",
@@ -2995,13 +2526,13 @@
  },
  "84.32.22.205:443:vless:ws:tls:/fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chrome": {
   "fails": 0,
-  "exit_ip": "104.28.156.152",
+  "exit_ip": "104.28.163.33",
   "country": "Singapore",
   "code": "SG",
   "geo_src": "exit",
-  "geo_ip": "104.28.156.152",
+  "geo_ip": "104.28.163.33",
   "geo_ok": true,
-  "geo_ts": 1792586591.5391378
+  "geo_ts": 1792602552.600884
  },
  "104.17.148.22:443:vless:ws:tls:/": {
   "fails": 0,
@@ -3014,13 +2545,13 @@
  },
  "151.101.1.242:443:vless:ws:tls:/ws": {
   "fails": 0,
-  "exit_ip": "23.191.200.204",
+  "exit_ip": "23.191.200.205",
   "country": "United States",
   "code": "US",
   "geo_src": "exit",
-  "geo_ip": "23.191.200.204",
+  "geo_ip": "23.191.200.205",
   "geo_ok": true,
-  "geo_ts": 1792586695.275928
+  "geo_ts": 1792599444.9308946
  },
  "13.143.182.82:443:vless:ws:tls:/": {
   "fails": 0,
@@ -3058,5 +2589,168 @@
   "geo_ip": "141.98.41.20",
   "geo_ok": false,
   "geo_ts": 1792586830.9484746
+ },
+ "104.26.8.117:443:vless:ws:tls:/": {
+  "fails": 0,
+  "country": "United States",
+  "code": "US",
+  "geo_src": "entry",
+  "geo_ip": "104.26.8.117",
+  "geo_ok": false,
+  "geo_ts": 1792598663.0307157
+ },
+ "13.36.145.160:22223:vless:tcp:none:/": {
+  "fails": 0,
+  "exit_ip": "13.36.145.160",
+  "country": "France",
+  "code": "FR",
+  "geo_src": "exit",
+  "geo_ip": "13.36.145.160",
+  "geo_ok": true,
+  "geo_ts": 1792598720.258617
+ },
+ "45.149.92.81:443:vless:ws:tls:/": {
+  "fails": 0,
+  "exit_ip": "104.28.157.201",
+  "country": "Hong Kong",
+  "code": "HK",
+  "geo_src": "exit",
+  "geo_ip": "104.28.157.201",
+  "geo_ok": true,
+  "geo_ts": 1792598792.7564316
+ },
+ "103.143.81.178:443:vless:ws:tls:/": {
+  "fails": 0,
+  "country": "Hong Kong",
+  "code": "HK",
+  "geo_src": "entry",
+  "geo_ip": "103.143.81.178",
+  "geo_ok": false,
+  "geo_ts": 1792598857.3007677
+ },
+ "202.50.253.99:19999:ss:tcp:none:": {
+  "fails": 0,
+  "exit_ip": "80.174.118.92",
+  "country": "Italy",
+  "code": "IT",
+  "geo_src": "exit",
+  "geo_ip": "80.174.118.92",
+  "geo_ok": true,
+  "geo_ts": 1792598953.6430333
+ },
+ "202.50.253.27:19999:ss:tcp:none:": {
+  "fails": 0,
+  "exit_ip": "80.174.118.23",
+  "country": "Italy",
+  "code": "IT",
+  "geo_src": "exit",
+  "geo_ip": "80.174.118.23",
+  "geo_ok": true,
+  "geo_ts": 1792599003.3701522
+ },
+ "13.125.9.223:443:vless:ws:tls:/": {
+  "fails": 0,
+  "country": "South Korea",
+  "code": "KR",
+  "geo_src": "entry",
+  "geo_ip": "13.125.9.223",
+  "geo_ok": false,
+  "geo_ts": 1792599081.9105792
+ },
+ "158.247.210.172:443:vless:ws:tls:/": {
+  "fails": 0,
+  "exit_ip": "104.28.157.4",
+  "country": "South Korea",
+  "code": "KR",
+  "geo_src": "exit",
+  "geo_ip": "104.28.157.4",
+  "geo_ok": true,
+  "geo_ts": 1792599121.860502
+ },
+ "188.166.231.184:443:vless:ws:tls:/": {
+  "fails": 0,
+  "country": "Singapore",
+  "code": "SG",
+  "geo_src": "entry",
+  "geo_ip": "188.166.231.184",
+  "geo_ok": false,
+  "geo_ts": 1792599166.1071534
+ },
+ "104.18.33.121:443:vless:ws:tls:/": {
+  "fails": 0,
+  "country": "United States",
+  "code": "US",
+  "geo_src": "entry",
+  "geo_ip": "104.18.33.121",
+  "geo_ok": false,
+  "geo_ts": 1792599229.194726
+ },
+ "177.3.208.65:443:vless:ws:tls:/vless-tr": {
+  "fails": 0,
+  "exit_ip": "151.241.226.201",
+  "country": "Türkiye",
+  "code": "TR",
+  "geo_src": "exit",
+  "geo_ip": "151.241.226.201",
+  "geo_ok": true,
+  "geo_ts": 1792599256.650447
+ },
+ "61.224.125.189:443:vmess:ws:tls:/": {
+  "fails": 0,
+  "exit_ip": "61.224.125.189",
+  "country": "Taiwan",
+  "code": "TW",
+  "geo_src": "exit",
+  "geo_ip": "61.224.125.189",
+  "geo_ok": true,
+  "geo_ts": 1792599300.4148715
+ },
+ "141.98.41.80:443:vless:ws:tls:/": {
+  "fails": 0,
+  "exit_ip": "104.28.153.111",
+  "country": "United States",
+  "code": "US",
+  "geo_src": "exit",
+  "geo_ip": "104.28.153.111",
+  "geo_ok": true,
+  "geo_ts": 1792599415.428557
+ },
+ "117.55.232.3:443:vless:ws:tls:/": {
+  "fails": 0,
+  "exit_ip": "104.28.152.145",
+  "country": "United States",
+  "code": "US",
+  "geo_src": "exit",
+  "geo_ip": "104.28.152.145",
+  "geo_ok": true,
+  "geo_ts": 1792599491.5658379
+ },
+ "138.186.140.8:443:vless:ws:tls:/": {
+  "fails": 0,
+  "exit_ip": "104.28.157.220",
+  "country": "United States",
+  "code": "US",
+  "geo_src": "exit",
+  "geo_ip": "104.28.157.220",
+  "geo_ok": true,
+  "geo_ts": 1792599548.1157358
+ },
+ "162.35.169.69:443:vless:ws:tls:/fp=chrome": {
+  "fails": 0,
+  "country": "United States",
+  "code": "US",
+  "geo_src": "entry",
+  "geo_ip": "162.35.169.69",
+  "geo_ok": false,
+  "geo_ts": 1792599583.4873903
+ },
+ "185.4.113.232:8055:vless:tcp:reality:/": {
+  "fails": 1
+ },
+ "159.195.61.255:443:vless:tcp:reality:": {
+  "fails": 1
+ },
+ "193.148.253.194:25411:vless:tcp:reality:": {
+  "fails": 1
  }
 }
