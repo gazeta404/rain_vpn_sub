@@ -188,7 +188,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.244.145.138",
+            "address": "103.244.145.144",
             "port": 443,
             "users": [
               {
@@ -218,7 +218,7 @@
       "settings": {
         "servers": [
           {
-            "address": "82.38.31.2",
+            "address": "82.38.31.54",
             "port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "oZIoA69Q8yhcQV8ka3Pa3A"
@@ -235,10 +235,10 @@
       "settings": {
         "servers": [
           {
-            "address": "82.38.31.7",
-            "port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            "address": "213.202.208.199",
+            "port": 5000,
+            "method": "aes-256-gcm",
+            "password": "Y6R9pAtvxxzmGC"
           }
         ]
       },
@@ -252,7 +252,7 @@
       "settings": {
         "servers": [
           {
-            "address": "82.38.31.185",
+            "address": "82.38.31.220",
             "port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "k1dBOmOB4oqi7Ump37a1bQ"
@@ -269,7 +269,7 @@
       "settings": {
         "servers": [
           {
-            "address": "82.38.31.204",
+            "address": "82.38.31.185",
             "port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "k1dBOmOB4oqi7Ump37a1bQ"
@@ -282,36 +282,40 @@
     },
     {
       "tag": "proxy-6",
-      "protocol": "vless",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "103.244.145.144",
-            "port": 443,
-            "users": [
-              {
-                "id": "e75ad2eb-6c1f-45ce-8023-f5f10875df66",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
+            "address": "202.50.253.99",
+            "port": 19999,
+            "method": "aes-256-gcm",
+            "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "zsde.eu-cdn294.com",
-          "fingerprint": "random",
-          "publicKey": "f4EJP55daJRlJkcZbbGsY-gFGGFGiXPPdfVxtNWQPCE",
-          "shortId": "c8621ebb1e56abb3",
-          "spiderX": ""
-        }
+        "network": "tcp"
       }
     },
     {
       "tag": "proxy-7",
+      "protocol": "shadowsocks",
+      "settings": {
+        "servers": [
+          {
+            "address": "82.38.31.149",
+            "port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    },
+    {
+      "tag": "proxy-8",
       "protocol": "shadowsocks",
       "settings": {
         "servers": [
@@ -328,47 +332,15 @@
       }
     },
     {
-      "tag": "proxy-8",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.17.134.88",
-            "port": 443,
-            "users": [
-              {
-                "id": "495c7195-85b8-498a-bf20-2ea9ce9175b5",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443",
-          "headers": {
-            "Host": "snip.edgeoneai.cc.cd"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "snip.edgeoneai.cc.cd",
-          "allowInsecure": false
-        }
-      }
-    },
-    {
       "tag": "proxy-9",
       "protocol": "shadowsocks",
       "settings": {
         "servers": [
           {
-            "address": "82.38.31.175",
-            "port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            "address": "202.50.253.45",
+            "port": 19999,
+            "method": "aes-256-gcm",
+            "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
           }
         ]
       },
@@ -378,19 +350,34 @@
     },
     {
       "tag": "proxy-10",
-      "protocol": "shadowsocks",
+      "protocol": "vless",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "82.38.31.206",
-            "port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "k1dBOmOB4oqi7Ump37a1bQ"
+            "address": "89.34.230.66",
+            "port": 60023,
+            "users": [
+              {
+                "id": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
+                "encryption": "none"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp"
+        "network": "grpc",
+        "grpcSettings": {
+          "serviceName": ""
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "starlink.com",
+          "fingerprint": "chrome",
+          "publicKey": "PFL3AoMNTu9-VrM2WIrvQl2l-ibVgR5vIE1Vh-txKVg",
+          "shortId": "6070d424a64f75",
+          "spiderX": ""
+        }
       }
     },
     {
@@ -399,7 +386,7 @@
       "settings": {
         "servers": [
           {
-            "address": "82.38.31.149",
+            "address": "82.38.31.46",
             "port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "oZIoA69Q8yhcQV8ka3Pa3A"
@@ -416,10 +403,10 @@
       "settings": {
         "servers": [
           {
-            "address": "57.131.48.45",
-            "port": 8388,
-            "method": "aes-256-gcm",
-            "password": "itzvpn@321"
+            "address": "82.38.31.178",
+            "port": 8080,
+            "method": "chacha20-poly1305",
+            "password": "k1dBOmOB4oqi7Ump37a1bQ"
           }
         ]
       },
@@ -433,7 +420,7 @@
       "settings": {
         "servers": [
           {
-            "address": "82.38.31.18",
+            "address": "82.38.31.175",
             "port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "oZIoA69Q8yhcQV8ka3Pa3A"
@@ -446,37 +433,19 @@
     },
     {
       "tag": "proxy-14",
-      "protocol": "vless",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "www.speedtest.net",
+            "address": "82.38.31.175",
             "port": 443,
-            "users": [
-              {
-                "id": "495c7195-85b8-498a-bf20-2ea9ce9175b5",
-                "encryption": "none"
-              }
-            ]
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560#Telegram---bored_vpn",
-          "headers": {
-            "Host": "snip.edgeoneai.cc.cd"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "snip.edgeoneai.cc.cd",
-          "allowInsecure": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        }
+        "network": "tcp"
       }
     },
     {
@@ -485,10 +454,10 @@
       "settings": {
         "servers": [
           {
-            "address": "202.50.253.27",
-            "port": 19999,
-            "method": "aes-256-gcm",
-            "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+            "address": "82.38.31.206",
+            "port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "k1dBOmOB4oqi7Ump37a1bQ"
           }
         ]
       },
@@ -498,14 +467,18 @@
     },
     {
       "tag": "proxy-16",
-      "protocol": "shadowsocks",
+      "protocol": "vless",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "82.38.31.180",
-            "port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "k1dBOmOB4oqi7Ump37a1bQ"
+            "address": "18.135.33.244",
+            "port": 22223,
+            "users": [
+              {
+                "id": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+                "encryption": "none"
+              }
+            ]
           }
         ]
       },
@@ -532,425 +505,223 @@
     },
     {
       "tag": "proxy-18",
-      "protocol": "vless",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "193.233.253.180",
-            "port": 8444,
-            "users": [
-              {
-                "id": "f55e9aba-7b14-4f6f-b59a-d5b3d45c9309",
-                "encryption": "none"
-              }
-            ]
+            "address": "82.38.31.18",
+            "port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
           }
         ]
       },
       "streamSettings": {
-        "network": "grpc",
-        "grpcSettings": {
-          "serviceName": "GunService"
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "github.com",
-          "fingerprint": "random",
-          "publicKey": "FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0",
-          "shortId": "457fab2ac885dbe0",
-          "spiderX": ""
-        }
+        "network": "tcp"
       }
     },
     {
       "tag": "proxy-19",
-      "protocol": "vless",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "104.17.147.22",
-            "port": 443,
-            "users": [
-              {
-                "id": "495c7195-85b8-498a-bf20-2ea9ce9175b5",
-                "encryption": "none"
-              }
-            ]
+            "address": "82.38.31.7",
+            "port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/",
-          "headers": {
-            "Host": "snip.edgeoneai.cc.cd"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "snip.edgeoneai.cc.cd",
-          "allowInsecure": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        }
+        "network": "tcp"
       }
     },
     {
       "tag": "proxy-20",
-      "protocol": "vless",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "104.18.35.86",
-            "port": 2082,
-            "users": [
-              {
-                "id": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
-                "encryption": "none"
-              }
-            ]
+            "address": "82.38.31.213",
+            "port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "k1dBOmOB4oqi7Ump37a1bQ"
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/fp",
-          "headers": {
-            "Host": "hhlfy.twiladaphne.ndjp.net"
-          }
-        }
+        "network": "tcp"
       }
     },
     {
       "tag": "proxy-21",
-      "protocol": "vless",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "saas.sin.fan",
-            "port": 443,
-            "users": [
-              {
-                "id": "495c7195-85b8-498a-bf20-2ea9ce9175b5",
-                "encryption": "none"
-              }
-            ]
+            "address": "82.38.31.204",
+            "port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "k1dBOmOB4oqi7Ump37a1bQ"
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560",
-          "headers": {
-            "Host": "snip.edgeoneai.cc.cd"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "snip.edgeoneai.cc.cd",
-          "allowInsecure": false,
-          "alpn": [
-            "h3",
-            "h2"
-          ]
-        }
+        "network": "tcp"
       }
     },
     {
       "tag": "proxy-22",
-      "protocol": "vless",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "162.159.135.234",
-            "port": 443,
-            "users": [
-              {
-                "id": "495c7195-85b8-498a-bf20-2ea9ce9175b5",
-                "encryption": "none"
-              }
-            ]
+            "address": "57.131.48.45",
+            "port": 8388,
+            "method": "aes-256-gcm",
+            "password": "itzvpn@321"
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443",
-          "headers": {
-            "Host": "snip.edgeoneai.cc.cd"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "snip.edgeoneai.cc.cd",
-          "allowInsecure": false,
-          "alpn": [
-            "h3",
-            "h2"
-          ]
-        }
+        "network": "tcp"
       }
     },
     {
       "tag": "proxy-23",
-      "protocol": "vless",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "cf.130519.xyz",
-            "port": 443,
-            "users": [
-              {
-                "id": "d342d11e-d224-4463-b982-532309285094",
-                "encryption": "none"
-              }
-            ]
+            "address": "82.38.31.193",
+            "port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "k1dBOmOB4oqi7Ump37a1bQ"
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/",
-          "headers": {
-            "Host": "ccc.010304.xyz"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "ccc.010304.xyz",
-          "allowInsecure": false
-        }
+        "network": "tcp"
       }
     },
     {
       "tag": "proxy-24",
-      "protocol": "vless",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "104.24.95.193",
-            "port": 443,
-            "users": [
-              {
-                "id": "495c7195-85b8-498a-bf20-2ea9ce9175b5",
-                "encryption": "none"
-              }
-            ]
+            "address": "82.38.31.26",
+            "port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/",
-          "headers": {
-            "Host": "snip.edgeoneai.cc.cd"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "snip.edgeoneai.cc.cd",
-          "allowInsecure": false
-        }
+        "network": "tcp"
       }
     },
     {
       "tag": "proxy-25",
-      "protocol": "vless",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "104.18.35.86",
+            "address": "82.38.31.149",
             "port": 8080,
-            "users": [
-              {
-                "id": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
-                "encryption": "none"
-              }
-            ]
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/sg-melbi",
-          "headers": {
-            "Host": "hhlfy.twiladaphne.ndjp.net"
-          }
-        }
+        "network": "tcp"
       }
     },
     {
       "tag": "proxy-26",
-      "protocol": "vless",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "104.17.69.244",
-            "port": 443,
-            "users": [
-              {
-                "id": "495c7195-85b8-498a-bf20-2ea9ce9175b5",
-                "encryption": "none"
-              }
-            ]
+            "address": "82.38.31.198",
+            "port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "k1dBOmOB4oqi7Ump37a1bQ"
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/",
-          "headers": {
-            "Host": "snip.edgeoneai.cc.cd"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "snip.edgeoneai.cc.cd",
-          "allowInsecure": false
-        }
+        "network": "tcp"
       }
     },
     {
       "tag": "proxy-27",
-      "protocol": "vless",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "104.17.3.81",
-            "port": 443,
-            "users": [
-              {
-                "id": "495c7195-85b8-498a-bf20-2ea9ce9175b5",
-                "encryption": "none"
-              }
-            ]
+            "address": "82.38.31.200",
+            "port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "k1dBOmOB4oqi7Ump37a1bQ"
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/fdip#TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560",
-          "headers": {
-            "Host": "snip.edgeoneai.cc.cd"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "snip.edgeoneai.cc.cd",
-          "allowInsecure": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        }
+        "network": "tcp"
       }
     },
     {
       "tag": "proxy-28",
-      "protocol": "vless",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "172.67.118.45",
+            "address": "82.38.31.171",
             "port": 443,
-            "users": [
-              {
-                "id": "495c7195-85b8-498a-bf20-2ea9ce9175b5",
-                "encryption": "none"
-              }
-            ]
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/fdip#TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560",
-          "headers": {
-            "Host": "snip.edgeoneai.cc.cd"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "snip.edgeoneai.cc.cd",
-          "allowInsecure": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        }
+        "network": "tcp"
       }
     },
     {
       "tag": "proxy-29",
-      "protocol": "vless",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "177.1.187.183",
-            "port": 443,
-            "users": [
-              {
-                "id": "495c7195-85b8-498a-bf20-2ea9ce9175b5",
-                "encryption": "none"
-              }
-            ]
+            "address": "82.38.31.2",
+            "port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/",
-          "headers": {
-            "Host": "snip.edgeoneai.cc.cd"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "snip.edgeoneai.cc.cd",
-          "allowInsecure": false
-        }
+        "network": "tcp"
       }
     },
     {
       "tag": "proxy-30",
-      "protocol": "vless",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "cf.090227.xyz",
-            "port": 443,
-            "users": [
-              {
-                "id": "d342d11e-d224-4463-b982-532309285094",
-                "encryption": "none"
-              }
-            ]
+            "address": "82.38.31.171",
+            "port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/",
-          "headers": {
-            "Host": "ccc.010304.xyz"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "ccc.010304.xyz",
-          "allowInsecure": false
-        }
+        "network": "tcp"
       }
     },
     {
